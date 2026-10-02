@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hse-startup-club",
+  "description": "Фирменный стиль Стартап Клуба ВШЭ для Claude.",
+  "owner": {"name": "Стартап Клуб ВШЭ", "url": "https://t.me/hsestartupclub"},
+  "plugins": [
+    {
+      "name": "startup-club-deck",
+      "description": "Презентации в фирменном стиле Стартап Клуба ВШЭ: питч, питч-дек, большая презентация.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
