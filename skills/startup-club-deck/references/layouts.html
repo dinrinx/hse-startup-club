@@ -1,0 +1,904 @@
+<!-- Эталонные слайды Стартап Клуба ВШЭ, 1920x1080. Разметка для типа Slides:
+     всё оформление инлайном, никаких классов и переменных. Берёшь слайд нужного типа,
+     копируешь и меняешь текст в квадратных скобках. Неразрывные пробелы (&nbsp;)
+     уже расставлены — сохраняй их и ставь так же в новом тексте (см. SKILL.md, «Типографика»).
+     В <aside> — заметка к слайду: правила, которые нужно соблюсти при заполнении. -->
+<!-- Слайд 01 — Обложка -->
+<section id="01-cover" data-transition="fade" style="display:flex; flex-direction:column; justify-content:space-between; padding:60px; background:linear-gradient(135deg, #fc5400 0%, #d85004 30%, #8a2b00 66%, #170a04 100%)">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:52px; height:52px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:'Unbounded', Arial, sans-serif; font-size:26px; font-weight:800; line-height:1; color:#ffffff">СТАРТАП</p>
+        <p style="font-family:'Unbounded', Arial, sans-serif; font-size:26px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+    <p style="font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; letter-spacing:2px; color:#ffffffb8">2026</p>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:40px">
+    <p style="font-family:Inter, Arial, sans-serif; font-size:28px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ffffffc7">[Категория проекта]</p>
+    <h1 style="font-family:'Unbounded', Arial, sans-serif; font-size:160px; font-weight:800; line-height:0.9; letter-spacing:-4px; text-transform:uppercase; color:#ffffff">[Название<br>проекта]</h1>
+    <p style="width:1100px; font-family:Inter, Arial, sans-serif; font-size:40px; line-height:1.3; color:#ffffffe0">[Одна фраза: что&nbsp;вы&nbsp;делаете и&nbsp;для&nbsp;кого. Не&nbsp;больше двенадцати слов.]</p>
+  </div>
+  <p style="font-family:Inter, Arial, sans-serif; font-size:26px; color:#ffffffb3">[Команда] · [Имя, Имя, Имя] · [месяц 2026]</p>
+  <aside>Слайд 01&nbsp;— Обложка. Отвечает за&nbsp;первое впечатление: название проекта и&nbsp;одна фраза сути. Произносится за&nbsp;15 секунд. Если дескриптор не&nbsp;помещается в&nbsp;одну строку&nbsp;— он&nbsp;слишком длинный. Заменить все значения в&nbsp;квадратных скобках.</aside>
+</section>
+
+<!-- Слайд 01b — Обложка, тёмная минималистичная -->
+<section id="01b-cover" data-transition="fade" style="background:radial-gradient(ellipse at 100% 115%, #ffb15a 0%, #fc5400 16%, #d85004 26%, #8a2b00 40%, #3a1005 54%, #140b08 72%);color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px;display:flex;flex-direction:column;align-items:center;justify-content:space-between">
+<div style="display:flex;justify-content:center"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="52" height="52" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:28px;width:1600px">
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:132px;font-weight:800;line-height:1;letter-spacing:-4px;text-align:center;color:#ffffff">[Название]</h1>
+<div style="width:640px;height:12px;border-radius:999px;background:linear-gradient(90deg, #d85004 0%, #fc5400 50%, #ffc35a 100%)"></div>
+<p style="width:1100px;font-family:'Inter', Arial, sans-serif;font-size:32px;line-height:1.35;text-align:center;color:#c9bdb6">[Одна фраза: что&nbsp;вы&nbsp;делаете и&nbsp;для&nbsp;кого]</p>
+</div>
+<p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;text-align:center;color:#8c7d74">[Команда] · [Имя, Имя, Имя] · [месяц 2026]</p>
+<aside>Слайд 01b&nbsp;— Обложка, тёмная минималистичная. По&nbsp;центру только название проекта, под&nbsp;ним фирменная оранжевая полоса и&nbsp;одна фраза сути. Логотип клуба сверху по&nbsp;центру, оранжевое свечение в&nbsp;правом нижнем углу. Выберите одну обложку: 01, 01b или&nbsp;01c.</aside>
+</section>
+
+<!-- Слайд 01c — Обложка, светлая с кубком -->
+<section id="01c-cover" data-transition="fade" style="display:flex; flex-direction:column; justify-content:space-between; padding:60px; background:linear-gradient(120deg, #ffffff 0%, #f4f5f7 60%, #fde3d4 100%)">
+  <svg xmlns="http://www.w3.org/2000/svg" aria-label="Кубок" viewBox="0 0 600 700" style="position:absolute; top:61.85px; left:950.31px; width:1092.84px; height:1274.45px; transform:rotate(-7deg)"><defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc38a"/><stop offset="0.45" stop-color="#fc5400"/><stop offset="1" stop-color="#8a2b00"/></linearGradient><linearGradient id="tb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fc5400"/><stop offset="1" stop-color="#8a2b00"/></linearGradient></defs><path d="M140 120 C40 110 30 290 165 320" fill="none" stroke="url(#tb)" stroke-width="38" stroke-linecap="round"/><path d="M460 120 C560 110 570 290 435 320" fill="none" stroke="url(#tb)" stroke-width="38" stroke-linecap="round"/><path d="M120 60 H480 V210 C480 340 400 420 300 430 C200 420 120 340 120 210 Z" fill="url(#tg)"/><ellipse cx="300" cy="62" rx="180" ry="26" fill="#ffd9b8"/><path d="M175 110 C165 210 185 300 235 360" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="22" stroke-linecap="round"/><path d="M300 170 L318 215 L366 218 L329 248 L341 295 L300 269 L259 295 L271 248 L234 218 L282 215 Z" fill="#ffffff" fill-opacity="0.9"/><path d="M268 428 H332 L345 520 H255 Z" fill="url(#tb)"/><rect x="190" y="515" width="220" height="56" rx="16" fill="url(#tg)"/><rect x="150" y="566" width="300" height="78" rx="20" fill="url(#tb)"/><rect x="235" y="590" width="130" height="28" rx="8" fill="#ffd9b8" fill-opacity="0.7"/></svg>
+  <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:52px; height:52px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg>
+    <div style="display:flex; flex-direction:column">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:26px; font-weight:800; line-height:1; color:#d84800">СТАРТАП</p>
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:26px; font-weight:800; line-height:1; color:#222222">КЛУБ</p>
+    </div>
+  </div>
+  <div style="width:980px; display:flex; flex-direction:column; gap:32px">
+    <h1 style="font-family:Unbounded, Arial, sans-serif; font-size:112px; font-weight:800; line-height:1; letter-spacing:-4px; color:#222222">[Название]</h1>
+    <p style="width:820px; font-family:Inter, Arial, sans-serif; font-size:36px; line-height:1.35; color:#222222">[Что&nbsp;вы&nbsp;делаете] <span style="color:#e04800">[и&nbsp;какую главную задачу решаете]</span></p>
+    <p style="font-family:Inter, Arial, sans-serif; font-size:24px; line-height:1; color:#8a7d74">[Команда] · [Имя, Имя, Имя] · [месяц 2026]</p>
+  </div>
+  <aside>Слайд 01c&nbsp;— Обложка, светлая с&nbsp;кубком. Название крупно слева внизу, под&nbsp;ним одна фраза: вторая половина выделена оранжевым&nbsp;— это ключевая мысль. Справа объёмный кубок в&nbsp;фирменных цветах (картинка, текст поверх не&nbsp;нужен). Подходит для&nbsp;чемпионатов и&nbsp;конкурсов. Выберите одну обложку: 01, 01b или&nbsp;01c.</aside>
+</section>
+
+<!-- Слайд 02 — Содержание -->
+<section id="02-soderzhanie" data-transition="fade" style="display:flex; flex-direction:column; padding:60px 60px 108px; background:#140b08">
+  <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+    <div style="display:flex; flex-direction:column">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#fc5400">СТАРТАП</p>
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+    </div>
+  </div>
+  <h2 style="position:absolute; top:140px; left:60px; width:1100px; font-family:Unbounded, Arial, sans-serif; font-size:64px; font-weight:800; line-height:1; letter-spacing:-2px; text-transform:uppercase; color:#ffffff">О&nbsp;чём поговорим</h2>
+  <div style="position:absolute; top:260px; left:60px; width:1100px; height:712px; display:flex; flex-direction:column; gap:14px">
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; flex:1; padding:0 40px; background:#1e120c; border-radius:22px">
+      <p style="width:90px; font-family:Unbounded, Arial, sans-serif; font-size:48px; font-weight:800; line-height:1; color:#fc5400">01</p>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:32px; line-height:1.2; color:#ffffff">[Проблема]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; flex:1; padding:0 40px; background:#1e120c; border-radius:22px">
+      <p style="width:90px; font-family:Unbounded, Arial, sans-serif; font-size:48px; font-weight:800; line-height:1; color:#fc5400">02</p>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:32px; line-height:1.2; color:#ffffff">[Решение]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; flex:1; padding:0 40px; background:#1e120c; border-radius:22px">
+      <p style="width:90px; font-family:Unbounded, Arial, sans-serif; font-size:48px; font-weight:800; line-height:1; color:#fc5400">03</p>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:32px; line-height:1.2; color:#ffffff">[Рынок и&nbsp;модель]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; flex:1; padding:0 40px; background:#1e120c; border-radius:22px">
+      <p style="width:90px; font-family:Unbounded, Arial, sans-serif; font-size:48px; font-weight:800; line-height:1; color:#fc5400">04</p>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:32px; line-height:1.2; color:#ffffff">[Тяга и&nbsp;цифры]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; flex:1; padding:0 40px; background:#1e120c; border-radius:22px">
+      <p style="width:90px; font-family:Unbounded, Arial, sans-serif; font-size:48px; font-weight:800; line-height:1; color:#fc5400">05</p>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:32px; line-height:1.2; color:#ffffff">[Команда]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; flex:1; padding:0 40px; background:#1e120c; border-radius:22px">
+      <p style="width:90px; font-family:Unbounded, Arial, sans-serif; font-size:48px; font-weight:800; line-height:1; color:#fc5400">06</p>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:32px; line-height:1.2; color:#ffffff">[Запрос]</p>
+    </div>
+  </div>
+  <div style="position:absolute; top:140px; left:1200px; width:660px; height:832px; display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:48px; background:linear-gradient(160deg, #fc5400 0%, #d85004 55%, #8a2b00 100%); border-radius:22px">
+    <img alt="Картинка или иконка проекта" style="width:480px; height:480px; background:#ffffff2e; border-radius:22px; object-fit:contain">
+    <p style="width:564px; font-family:Unbounded, Arial, sans-serif; font-size:34px; font-weight:700; line-height:1.25; color:#ffffff">[Одна фраза: главная мысль презентации]</p>
+  </div>
+  <p style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#8c7d74">02</p>
+  <aside>Слайд 02&nbsp;— Содержание. Нужен, если слайдов больше двенадцати. Слева шесть разделов карточками с&nbsp;номерами&nbsp;— больше шести не&nbsp;делать: это карта, а&nbsp;не&nbsp;оглавление книги. Справа оранжевая карточка: квадрат под&nbsp;картинку или&nbsp;иконку проекта (вписывается без&nbsp;обрезки) и&nbsp;одна фраза&nbsp;— главная мысль всей презентации.</aside>
+</section>
+
+<!-- Слайд 03 — Проблема -->
+<section id="03-problema" data-transition="fade" style="display:flex; flex-direction:column; justify-content:space-between; padding:60px 60px 108px; background:#140b08">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#fc5400">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <h1 style="width:1500px; font-family:Unbounded, Arial, sans-serif; font-size:100px; font-weight:800; line-height:0.95; letter-spacing:-3px; text-transform:uppercase; color:#ffffff">[Проблема в&nbsp;пять слов,<br>одно <span style="color:#fc5400">оранжевым</span>]</h1>
+  <div style="display:flex; flex-direction:row; gap:28px">
+    <div style="display:flex; flex-direction:column; gap:16px; flex:1; padding:40px; background:#1e120c; border-radius:22px">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:64px; font-weight:800; color:#fc5400">[00%]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.35; color:#c9bdb6">[Кого это касается и&nbsp;как&nbsp;часто]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:16px; flex:1; padding:40px; background:#1e120c; border-radius:22px">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:64px; font-weight:800; color:#fc5400">[0&nbsp;ч]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.35; color:#c9bdb6">[Сколько времени или&nbsp;денег теряют]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:16px; flex:1; padding:40px; background:#1e120c; border-radius:22px">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:64px; font-weight:800; color:#fc5400">[₽0&nbsp;млн]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.35; color:#c9bdb6">[Во&nbsp;что&nbsp;обходится рынку]</p>
+    </div>
+  </div>
+  <p style="font-family:Inter, Arial, sans-serif; font-size:24px; color:#8c7d74">Источник: [исследование, год]</p>
+  <p style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#8c7d74">03</p>
+  <aside>Слайд 03&nbsp;— Проблема. Самый важный слайд после обложки. Одно утверждение капсом, одно слово оранжевым&nbsp;— не&nbsp;три. Под&nbsp;ним три цифры боли: кого касается, сколько теряют, во&nbsp;что&nbsp;обходится. Цифры обязаны иметь источник, иначе их&nbsp;не&nbsp;ставить.</aside>
+</section>
+
+<!-- Слайд 04 — Инсайт -->
+<section id="04-insajt" data-transition="fade" style="background:#f4f5f7">
+  <p id="e1-1guja6t" style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#8a7d74">04</p>
+  <div id="p72da529957a2r0-ec2b05d1" style="position:absolute; top:60px; left:60px; width:1800px; height:48px; display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#d84800">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#222222">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <div id="p72da529957a2r1-ec2b05d1" style="position:absolute; top:50%; left:50%; width:1800px; height:620px; display:flex; flex-direction:row; gap:64px; align-items:center; transform:translate(-50%, -50%)">
+    <div style="display:flex; flex-direction:column; gap:40px; flex:1">
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#d84800">Из&nbsp;интервью с&nbsp;клиентом</p>
+      <p style="width:903px; font-family:Unbounded, Arial, sans-serif; font-size:54px; font-weight:600; line-height:1.15; letter-spacing:-1px; color:#222222">«[Прямая цитата клиента о&nbsp;том, как&nbsp;он&nbsp;живёт с&nbsp;этой проблемой сейчас. Две-три строки, его словами, без&nbsp;правки.]»</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:28px; line-height:1.4; color:#5b5048">[Имя], [должность], [компания]<br>Один из&nbsp;[00] интервью, [месяц 2026]</p>
+    </div>
+    <div style="width:560px; height:620px; display:flex; flex-direction:row; align-items:center; justify-content:center; background:#e6e0da; border-radius:22px">
+      <p style="width:420px; font-family:Inter, Arial, sans-serif; font-size:26px; text-align:center; color:#8a7d74">[Фото собеседника или&nbsp;скриншот переписки]</p>
+    </div>
+  </div>
+  <aside>Слайд 04&nbsp;— Инсайт. Доказывает, что&nbsp;проблема настоящая, а&nbsp;не&nbsp;придумана за&nbsp;столом. Цитата живая, дословная, без&nbsp;причёсывания. Обязательно сказать, сколько всего было интервью&nbsp;— одна цитата без&nbsp;контекста ничего не&nbsp;стоит.</aside>
+</section>
+
+<!-- Слайд 05 — Решение -->
+<section id="05-reshenie" data-transition="fade" style="display:flex; flex-direction:column; justify-content:space-between; padding:60px 60px 108px; background:linear-gradient(135deg, #fc5400 0%, #d85004 34%, #8a2b00 72%, #170a04 100%)">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <h2 style="width:1400px; font-family:Unbounded, Arial, sans-serif; font-size:96px; font-weight:800; line-height:0.98; letter-spacing:-2px; text-transform:uppercase; color:#ffffff">[Решение одной фразой]</h2>
+  <div style="display:flex; flex-direction:row; gap:48px; align-items:end">
+    <div style="width:820px; display:flex; flex-direction:column; gap:20px; padding:48px; background:#ffffff; border-radius:22px; box-shadow:0 18px 40px #00000047">
+      <p style="font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:#d84800">Что&nbsp;это</p>
+      <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:700; line-height:1.1; color:#222222">[Название продукта]</h3>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:28px; line-height:1.4; color:#5b5048">[Две-три строки: что&nbsp;продукт делает, для&nbsp;кого и&nbsp;чем он&nbsp;отличается от&nbsp;того, как&nbsp;эту задачу решают сейчас.]</p>
+    </div>
+    <div style="height:420px; display:flex; flex-direction:row; align-items:center; justify-content:center; flex:1; background:#0000004d; border-radius:22px">
+      <p style="width:420px; font-family:Inter, Arial, sans-serif; font-size:26px; text-align:center; color:#ffffffbf">[Скриншот продукта]</p>
+    </div>
+  </div>
+  <p style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#ffffffb3">05</p>
+  <aside>Слайд 05&nbsp;— Решение. Белая карточка поверх градиента&nbsp;— фирменный приём клуба. Заголовок одной фразой, в&nbsp;карточке три строки о&nbsp;продукте, справа скриншот. Не&nbsp;перечислять функции: функции идут на&nbsp;слайде 06.</aside>
+</section>
+
+<!-- Слайд 06 — Как работает -->
+<section id="06-kak-rabotaet" data-transition="fade" style="display:flex;flex-direction:column;gap:40px;padding:60px 60px 108px;background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#fc5400">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase;color:#ffffff">Как&nbsp;это работает</h2>
+  <div style="flex:1;display:flex;flex-direction:row;gap:20px"><div style="flex:1;display:flex;flex-direction:column;gap:20px;padding:28px;background:#1e120c;border-radius:22px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#c9bdb6;border:2px solid #3a2a22;border-radius:999px;padding:8px 18px;align-self:start">01</p><img alt="Картинка или 3D-иконка шага" style="width:100%;height:280px;object-fit:contain;border-radius:16px;background:#2a1a12"><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.1;text-transform:uppercase;color:#ffffff">[Шаг первый]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.4;color:#c9bdb6">[Что&nbsp;делает пользователь и&nbsp;что&nbsp;происходит в&nbsp;системе. Две строки.]</p></div><x-shape kind="arrow-right" style="width:44px;height:26px;background:#fc5400;align-self:center"></x-shape><div style="flex:1;display:flex;flex-direction:column;gap:20px;padding:28px;background:#1e120c;border-radius:22px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#c9bdb6;border:2px solid #3a2a22;border-radius:999px;padding:8px 18px;align-self:start">02</p><img alt="Картинка или 3D-иконка шага" style="width:100%;height:280px;object-fit:contain;border-radius:16px;background:#2a1a12"><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.1;text-transform:uppercase;color:#ffffff">[Шаг второй]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.4;color:#c9bdb6">[Что&nbsp;делает пользователь и&nbsp;что&nbsp;происходит в&nbsp;системе. Две строки.]</p></div><x-shape kind="arrow-right" style="width:44px;height:26px;background:#fc5400;align-self:center"></x-shape><div style="flex:1;display:flex;flex-direction:column;gap:20px;padding:28px;background:#fc5400;border-radius:22px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#ffffff;border:2px solid rgba(255,255,255,0.6);border-radius:999px;padding:8px 18px;align-self:start">03</p><img alt="Картинка или 3D-иконка шага" style="width:100%;height:280px;object-fit:contain;border-radius:16px;background:rgba(255,255,255,0.16)"><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.1;text-transform:uppercase;color:#ffffff">[Шаг третий]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.4;color:#ffe3d2">[Что&nbsp;делает пользователь и&nbsp;что&nbsp;происходит в&nbsp;системе. Две строки.]</p></div></div>
+  <div style="display:flex;justify-content:end"><div style="display:flex;align-items:center;gap:20px;border:2px solid #3a2a22;border-radius:999px;padding:8px 8px 8px 32px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;text-transform:uppercase;letter-spacing:1px;color:#ffffff">[Попробовать продукт]</p><div style="width:56px;height:56px;border-radius:999px;background:#fc5400;display:flex;align-items:center;justify-content:center"><x-shape kind="arrow-right" style="width:26px;height:16px;background:#ffffff"></x-shape></div></div></div>
+  <p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;letter-spacing:2px;color:#8c7d74">06</p>
+  <aside>Слайд 06&nbsp;— Как&nbsp;работает. Ровно три шага, между ними стрелки. В&nbsp;каждой карточке&nbsp;— номер, картинка или&nbsp;3D-иконка шага (вписывается без&nbsp;обрезки), название и&nbsp;две строки с&nbsp;точки зрения пользователя. Последний шаг&nbsp;— результат&nbsp;— выделен оранжевым. Кнопка внизу справа&nbsp;— призыв к&nbsp;действию: ссылка на&nbsp;демо или&nbsp;пилот. Если шагов пять, продукт слишком сложен для&nbsp;питча&nbsp;— объедините.</aside>
+</section>
+
+<!-- Слайд 07 — Демо -->
+<section id="07-demo" data-transition="push" style="background:#0e0906;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;justify-content:space-between">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<div style="flex:1;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:30px;color:#8c7d74;text-align:center;width:700px">[Крупный скриншот или&nbsp;мокап продукта во&nbsp;всю ширину слайда]</p></div>
+<div style="display:flex;align-items:center;gap:28px">
+<p style="background:#fc5400;color:#ffffff;font-size:26px;font-weight:700;padding:14px 28px;border-radius:999px">Демо</p>
+<p style="font-size:30px;color:#c9bdb6">[Что&nbsp;именно показано на&nbsp;экране&nbsp;— одна строка]</p>
+</div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">07</p>
+<aside>Слайд 07&nbsp;— Демо. Один экран, ничего кроме него. Оранжевый бейдж и&nbsp;строка подписи говорят, на&nbsp;что&nbsp;смотреть. Если показываете живое демо&nbsp;— этот слайд остаётся на&nbsp;экране, пока вы&nbsp;переключаетесь.</aside>
+</section>
+
+<!-- Слайд 07a — Сценарий -->
+<section id="07a-scenarij" data-transition="fade" style="display:flex; flex-direction:column; padding:60px 60px 108px; background:#f4f5f7">
+  <x-shape kind="ellipse" style="position:absolute; top:80px; left:1180px; width:740px; height:740px; background:#140b08"></x-shape>
+  <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg>
+    <div style="display:flex; flex-direction:column">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#d84800">СТАРТАП</p>
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#222222">КЛУБ</p>
+    </div>
+  </div>
+  <p style="position:absolute; top:200px; left:60px; width:800px; font-family:Inter, Arial, sans-serif; font-size:28px; line-height:1; color:#8a7d74">[Сценарий 1]</p>
+  <h2 style="position:absolute; top:256px; left:60px; width:840px; font-family:Unbounded, Arial, sans-serif; font-size:64px; font-weight:700; line-height:1.1; letter-spacing:-2px; color:#222222">[Пользователь делает главное действие]</h2>
+  <p style="position:absolute; top:500px; left:60px; width:720px; font-family:Inter, Arial, sans-serif; font-size:28px; line-height:1.4; color:#5b5048">[Что&nbsp;видит на&nbsp;экране и&nbsp;что&nbsp;получает в&nbsp;итоге. Одна-две строки.]</p>
+  <div id="e7-1awjaun" style="position:absolute; top:190px; left:960px; width:388px; height:807px; display:flex; flex-direction:column; padding:14px; background:#16100d; border-radius:72px; box-shadow:0 24px 60px #00000038">
+    <img alt="Экран прототипа 390×844 — заменить картинку" style="width:360px; height:779px; background:#ffffff; border-radius:58px; object-fit:contain">
+  </div>
+  <div id="e8-1awjaun" style="position:absolute; top:215px; left:1100px; width:108px; height:31px; display:flex; flex-direction:column; background:#16100d; border-radius:256px">
+  </div>
+  <div id="e9-1awjaun" style="position:absolute; top:120px; left:1400px; width:388px; height:807px; display:flex; flex-direction:column; padding:14px; background:#16100d; border-radius:72px; box-shadow:0 24px 60px #00000038">
+    <img alt="Экран прототипа 390×844 — заменить картинку" style="width:360px; height:779px; background:#ffffff; border-radius:58px; object-fit:contain">
+  </div>
+  <div id="e10-1awjaun" style="position:absolute; top:145px; left:1540px; width:108px; height:31px; display:flex; flex-direction:column; background:#16100d; border-radius:256px">
+  </div>
+  <p id="e11-1awjaun" style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#8a7d74">07a</p>
+  <aside>Слайд 07a&nbsp;— Сценарий. Слева номер сценария, что&nbsp;делает пользователь и&nbsp;что&nbsp;получает. Справа два экрана прототипа в&nbsp;мокапах телефона: выделите серую область экрана и&nbsp;замените картинку на&nbsp;свой скриншот. Экран 390×844 (стандартный размер iPhone в&nbsp;Figma) встанет без&nbsp;обрезки; другие пропорции впишутся целиком с&nbsp;белыми полями. Наклейка «фича топ»&nbsp;— главное ощущение от&nbsp;сценария в&nbsp;двух словах.</aside>
+</section>
+
+<!-- Слайд 07c — Функция крупным планом -->
+<section id="07c-funkciya" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div>
+<h2 style="position:absolute;left:60px;top:170px;width:640px;font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;letter-spacing:-1px;color:#222222">[Название функции]</h2>
+<p style="position:absolute;left:60px;top:300px;width:600px;font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:700;line-height:1.15;color:#a3a7ad">[что&nbsp;она даёт]</p>
+<p style="position:absolute;left:60px;top:470px;width:560px;font-family:'Inter', Arial, sans-serif;font-size:28px;line-height:1.4;color:#5b5048">[Две строки: какую задачу пользователя решает функция и&nbsp;чем удобнее, чем сейчас.]</p>
+<div style="position:absolute;left:60px;top:680px;width:600px;display:flex;flex-wrap:wrap;gap:12px">
+<p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#222222;background:#ffffff;padding:14px 24px;border-radius:999px">[тег]</p>
+<p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#222222;background:#ffffff;padding:14px 24px;border-radius:999px">[тег]</p>
+<p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#ffffff;background:#fc5400;padding:14px 24px;border-radius:999px">[активный тег]</p>
+</div>
+<div style="position:absolute;left:790px;top:110px;width:410px;height:852px;background:#16100d;border-radius:76px;padding:15px;box-shadow:0px 24px 60px rgba(0,0,0,0.22)"><img alt="Экран прототипа 390×844 — заменить картинку" style="width:380px;height:822px;object-fit:contain;border-radius:61px;background:#ffffff"></div>
+<div style="position:absolute;left:938px;top:136px;width:114px;height:32px;background:#16100d;border-radius:999px"></div>
+<div style="position:absolute;left:1240px;top:300px;width:620px;background:#ffffff;border-radius:22px;padding:20px;box-shadow:0px 18px 40px rgba(0,0,0,0.12)"><img alt="Крупный фрагмент экрана — карточка или кнопка" style="width:580px;height:220px;object-fit:contain;border-radius:14px;background:#eef0f3"></div>
+<div style="position:absolute;left:1240px;top:620px;width:620px;display:flex;gap:16px;align-items:center;background:#ffffff;border-radius:22px;padding:28px 32px;box-shadow:0px 18px 40px rgba(0,0,0,0.12)"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:48px;font-weight:800;line-height:1;color:#fc5400">[00]</p><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.35;color:#5b5048">[Цифра или&nbsp;эффект функции: например, сколько шагов экономит]</p></div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">07c</p>
+<aside>Слайд 07c&nbsp;— Функция крупным планом. Слева название функции и&nbsp;что&nbsp;она даёт, под&nbsp;ним теги-категории. В&nbsp;центре экран в&nbsp;мокапе, справа выноски: увеличенный фрагмент интерфейса (вставьте вырезанный кусок экрана&nbsp;— он&nbsp;впишется без&nbsp;обрезки) и&nbsp;одна цифра эффекта. Экран телефона&nbsp;— скриншот 390×844.</aside>
+</section>
+
+<!-- Слайд 07d — Интерфейс на мониторе -->
+<section id="07d-monitor" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div>
+<h2 style="position:absolute;left:60px;top:150px;width:760px;font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:800;line-height:1.1;letter-spacing:-2px;color:#222222">[Удобный, понятный] <span style="color:#e04800">[интерфейс]</span></h2>
+<p style="position:absolute;left:1000px;top:160px;width:860px;font-family:'Inter', Arial, sans-serif;font-size:30px;line-height:1.35;color:#222222">[Две строки: почему в&nbsp;продукте легко разобраться и&nbsp;что&nbsp;получает пользователь с&nbsp;первого экрана.]</p>
+<div style="position:absolute;left:1238px;top:936px;width:160px;height:56px;background:linear-gradient(180deg, #a3a7ad 0%, #d4d7dc 100%)"></div>
+<div style="position:absolute;left:1148px;top:988px;width:340px;height:16px;background:#c4c8ce;border-radius:999px"></div>
+<div style="position:absolute;left:820px;top:300px;width:996px;height:636px;background:#222222;border-radius:24px;padding:18px;box-shadow:0px 30px 60px rgba(0,0,0,0.18)"><img alt="Экран десктопа 1440×900 — заменить картинку" style="width:960px;height:600px;object-fit:contain;border-radius:8px;background:#ffffff"></div>
+<div style="position:absolute;left:60px;top:430px;width:560px;background:#ffffff;border-radius:22px;padding:20px;box-shadow:0px 18px 40px rgba(0,0,0,0.12);display:flex;flex-direction:column;gap:14px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#222222">[Что&nbsp;показывает фрагмент]</p><img alt="Фрагмент интерфейса — карточка, уведомление или форма" style="width:520px;height:200px;object-fit:contain;border-radius:14px;background:#eef0f3"></div>
+<div style="position:absolute;left:400px;top:720px;width:560px;background:#ffffff;border-radius:22px;padding:20px;box-shadow:0px 18px 40px rgba(0,0,0,0.14);display:flex;flex-direction:column;gap:14px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#222222">[Ещё один фрагмент]</p><img alt="Фрагмент интерфейса — карточка, уведомление или форма" style="width:520px;height:160px;object-fit:contain;border-radius:14px;background:#eef0f3"></div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">07d</p>
+<aside>Слайд 07d&nbsp;— Интерфейс на&nbsp;мониторе. В&nbsp;монитор вставьте скриншот десктопной версии 1440×900 (16:10)&nbsp;— он&nbsp;впишется без&nbsp;обрезки; 1920×1080 тоже встанет, с&nbsp;тонкими полями. Слева две белые выноски с&nbsp;крупными фрагментами интерфейса, которые плохо видно на&nbsp;общем экране: вырежьте их&nbsp;из&nbsp;макета. Заголовок&nbsp;— одна мысль, вторая часть оранжевым.</aside>
+</section>
+
+<!-- Слайд 07e — Экран на ноутбуке -->
+<section id="07e-noutbuk" data-transition="fade" style="background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="position:absolute;left:0px;top:0px;width:760px;height:1080px;background:radial-gradient(ellipse at 20% 30%, #fc5400 0%, #d85004 35%, #8a2b00 70%, #3a1005 100%)"></div>
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#ffffff"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div>
+<p style="position:absolute;right:60px;top:72px;width:400px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">[ПРОЕКТ] | 2026</p>
+<div style="position:absolute;left:100px;top:200px;width:1032px;height:657px;background:#16100d;border-radius:24px 24px 0px 0px;padding:16px;box-shadow:0px 30px 70px rgba(0,0,0,0.45)"><img alt="Экран десктопа 1440×900 — заменить картинку" style="width:1000px;height:625px;object-fit:contain;border-radius:6px;background:#ffffff"></div>
+<div style="position:absolute;left:40px;top:857px;width:1152px;height:28px;background:linear-gradient(180deg, #d4d7dc 0%, #8a8f96 100%);border-radius:0px 0px 22px 22px"></div>
+<div style="position:absolute;left:526px;top:857px;width:180px;height:10px;background:#8a8f96;border-radius:0px 0px 10px 10px"></div>
+<h2 style="position:absolute;left:1240px;top:300px;width:620px;font-family:'Unbounded', Arial, sans-serif;font-size:56px;font-weight:800;line-height:1.1;letter-spacing:-2px;color:#ffffff"><span style="color:#fc5400">[Название</span><br>[экрана]</h2>
+<p style="position:absolute;left:1240px;top:500px;width:620px;font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#fc5400">[Подзаголовок]</p>
+<p style="position:absolute;left:1240px;top:546px;width:560px;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.45;color:#c9bdb6">[Три-четыре строки: что&nbsp;пользователь видит на&nbsp;этом экране, какую задачу решает и&nbsp;чем это удобнее, чем у&nbsp;конкурентов.]</p>
+<p style="position:absolute;left:60px;top:996px;width:600px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:rgba(255,255,255,0.8)">[Название проекта]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">07e</p>
+<aside>Слайд 07e&nbsp;— Экран на&nbsp;ноутбуке. Слева фирменный оранжевый фон, справа тёмный, ноутбук лежит на&nbsp;границе. В&nbsp;экран вставьте скриншот десктопной версии 1440×900 (16:10)&nbsp;— впишется без&nbsp;обрезки. Справа название экрана (первая строка оранжевым), подзаголовок и&nbsp;описание.</aside>
+</section>
+
+<!-- Слайд 08a — Рынок кругами -->
+<section id="08a-rynok-krugi" data-transition="fade" style="display:flex; flex-direction:column; padding:60px 60px 108px; background:#f4f5f7">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:'Unbounded', Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#d84800">СТАРТАП</p>
+        <p style="font-family:'Unbounded', Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#222222">КЛУБ</p>
+      </div>
+    </div>
+    
+  </div>
+  <div style="position:absolute; top:152px; left:60px; width:1200px; display:flex; flex-direction:column; gap:24px">
+    <h1 style="font-family:'Unbounded', Arial, sans-serif; font-size:150px; font-weight:800; line-height:0.9; letter-spacing:-6px; color:#e04800">[₽0&nbsp;млн]</h1>
+    <p style="width:720px; font-family:'Unbounded', Arial, sans-serif; font-size:36px; font-weight:700; line-height:1.15; color:#222222">[заберём за&nbsp;3 года&nbsp;— 0% доступного рынка]</p>
+  </div>
+  <div style="position:absolute; top:160px; right:60px; width:400px; display:flex; flex-direction:column; gap:8px">
+    <p style="font-family:'Unbounded', Arial, sans-serif; font-size:56px; font-weight:800; line-height:1; color:#e04800">[0%]</p>
+    <p style="font-family:Inter, Arial, sans-serif; font-size:24px; line-height:1.3; color:#5b5048">[рост рынка в&nbsp;год, CAGR 2025–2030]</p>
+  </div>
+  <x-connector x1="60" y1="1080" x2="60" y2="566" head-end="open" style="color:#c9bdb6; border-style:dashed"></x-connector>
+  <p style="position:absolute; top:556px; left:88px; width:260px; font-family:Inter, Arial, sans-serif; font-size:24px; line-height:1.3; color:#8a7d74">Объём рынка, ₽ в&nbsp;год</p>
+  <p style="position:absolute; top:640px; left:88px; width:250px; font-family:Inter, Arial, sans-serif; font-size:24px; line-height:1.3; color:#8a7d74">Источник: [отчёт, год]<br>Метод: [снизу вверх]</p>
+  <div id="pb15ea8ed84dcc0-e973ad07" style="position:absolute; top:520px; left:420px; width:1120px; height:560px; display:flex; flex-direction:column; overflow:hidden">
+    <x-shape kind="ellipse" style="position:absolute; top:0; left:0; width:1120px; height:1120px; background:#8a2b00"></x-shape>
+    <x-shape kind="ellipse" style="position:absolute; top:160px; left:0; width:800px; height:800px; background:#d85004"></x-shape>
+    <x-shape kind="ellipse" style="position:absolute; top:340px; left:0; width:440px; height:440px; background:#fc5400"></x-shape>
+    <div style="position:absolute; top:265.73px; left:135.89px; width:560px; display:flex; flex-direction:row; gap:8px; align-items:start; justify-content:center">
+      <p style="font-family:'Unbounded', Arial, sans-serif; font-size:56px; font-weight:800; line-height:1; letter-spacing:-2px; white-space:nowrap; color:#ffffff">[₽0&nbsp;млрд]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; font-weight:600; font-style:italic; line-height:1; letter-spacing:1px; color:#ffe3d2">SAM</p>
+    </div>
+    <div style="position:absolute; top:440px; left:0; width:420px; display:flex; flex-direction:row; gap:8px; align-items:start; justify-content:center">
+      <p style="font-family:'Unbounded', Arial, sans-serif; font-size:40px; font-weight:800; line-height:1; letter-spacing:-2px; white-space:nowrap; color:#ffffff">[₽0&nbsp;млн]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; font-style:italic; line-height:1; letter-spacing:1px; color:#fff1e8">SOM</p>
+    </div>
+  </div>
+  <p id="pb15ea8ed84dcc0_4_0-e973ad07" style="position:absolute; top:620px; left:832px; width:530px; text-align:center; font-family:'Unbounded', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1; letter-spacing:-2px; white-space:nowrap; color:#ffffff">[₽0&nbsp;млрд]</p>
+  <p id="pb15ea8ed84dcc0_4_1-e973ad07" style="position:absolute; top:604px; left:1330px; width:70px; font-family:Inter, Arial, sans-serif; font-size:26px; font-weight:600; font-style:italic; line-height:1; letter-spacing:1px; color:#f5d9c8">TAM</p>
+  <p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">08</p>
+<aside>Слайд 08a&nbsp;— Рынок кругами. Вариант слайда 08 в&nbsp;формате инфографики: вложенные круги показывают, как&nbsp;весь рынок (TAM) сужается до&nbsp;доступного (SAM) и&nbsp;до&nbsp;вашей реальной доли (SOM). Крупная цифра сверху&nbsp;— SOM, потому что&nbsp;инвестора интересует именно он. Справа сверху&nbsp;— одна поддерживающая цифра, обычно темп роста рынка. Круги&nbsp;— редактируемые фигуры-эллипсы (нижняя половина обрезана краем слайда), цифры и&nbsp;подписи&nbsp;— обычный текст. Радиусы условные&nbsp;— не&nbsp;масштабируйте их&nbsp;по&nbsp;цифрам, если разница больше чем в&nbsp;10 раз, иначе SOM станет точкой. Цифры должны сходиться с&nbsp;юнит-экономикой на&nbsp;слайде 11.</aside>
+</section>
+
+<!-- Слайд 09 — Сегменты -->
+<section id="09-segmenty" data-transition="fade" style="background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:64px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Кому продаём</h2>
+<div style="display:flex;gap:32px">
+<div style="flex:1;background:#1e120c;border-radius:22px;padding:48px;display:flex;flex-direction:column;gap:20px"><p style="background:#fc5400;color:#ffffff;font-size:24px;font-weight:700;padding:10px 22px;border-radius:999px;align-self:start">Ядро</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:700;line-height:1.1">[Сегмент 1]</h3><p style="font-size:26px;line-height:1.4;color:#c9bdb6">[Боль этого сегмента в&nbsp;одну фразу]</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;color:#fc5400">[0&nbsp;тыс. чел.]</p></div>
+<div style="flex:1;background:#1e120c;border-radius:22px;padding:48px;display:flex;flex-direction:column;gap:20px"><p style="background:#3a1005;color:#fc5400;font-size:24px;font-weight:700;padding:10px 22px;border-radius:999px;align-self:start">Рост</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:700;line-height:1.1">[Сегмент 2]</h3><p style="font-size:26px;line-height:1.4;color:#c9bdb6">[Боль этого сегмента в&nbsp;одну фразу]</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;color:#fc5400">[0&nbsp;тыс. чел.]</p></div>
+<div style="flex:1;background:#1e120c;border-radius:22px;padding:48px;display:flex;flex-direction:column;gap:20px"><p style="background:#3a1005;color:#fc5400;font-size:24px;font-weight:700;padding:10px 22px;border-radius:999px;align-self:start">Потом</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:700;line-height:1.1">[Сегмент 3]</h3><p style="font-size:26px;line-height:1.4;color:#c9bdb6">[Боль этого сегмента в&nbsp;одну фразу]</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;color:#fc5400">[0&nbsp;тыс. чел.]</p></div>
+</div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">09</p>
+<aside>Слайд 09&nbsp;— Сегменты. Нужен только в&nbsp;большой презентации. Бейдж показывает очередь: с&nbsp;кем работаете сейчас, кто следующий. Три сегмента максимум&nbsp;— четвёртый означает, что&nbsp;вы&nbsp;не&nbsp;выбрали.</aside>
+</section>
+
+<!-- Слайд 09a — Персона, карточка -->
+<section id="09a-persona" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div>
+<h2 style="position:absolute;left:60px;top:140px;width:1800px;font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;line-height:1;letter-spacing:-1px;text-transform:uppercase;color:#222222">[Портрет пользователя]</h2>
+<div style="position:absolute;left:60px;top:230px;width:840px;height:742px;background:#dcdfe4;border-radius:28px;display:flex;align-items:center;justify-content:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;color:#8a8f96;text-align:center;width:400px">[Место под&nbsp;фото персоны]</p></div>
+<div style="position:absolute;left:88px;top:258px;width:56px;height:56px;background:#b7bcc3;border-radius:12px;border:3px solid #e04800;"></div>
+<div style="position:absolute;left:158px;top:258px;width:56px;height:56px;background:#c4c8ce;border-radius:12px;border:3px solid #f4f5f7;"></div>
+<div style="position:absolute;left:228px;top:258px;width:56px;height:56px;background:#c4c8ce;border-radius:12px;border:3px solid #f4f5f7;"></div>
+<div style="position:absolute;left:298px;top:258px;width:56px;height:56px;background:#c4c8ce;border-radius:12px;border:3px solid #f4f5f7;"></div>
+<div style="position:absolute;left:88px;top:808px;width:784px;height:136px;background:rgba(255,255,255,0.88);border-radius:20px;padding:0px 36px;display:flex;align-items:center;justify-content:space-between"><div style="display:flex;flex-direction:column;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:34px;font-weight:700;line-height:1;color:#222222">[Имя], [00]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">[Роль или&nbsp;профессия]</p></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#ffffff;background:#e04800;padding:12px 22px;border-radius:999px">[Сегмент]</p></div>
+<div style="position:absolute;left:940px;top:230px;width:920px;height:234px;background:#ffffff;border-radius:22px;padding:28px 36px;display:flex;flex-direction:column;gap:18px"><div style="display:flex;align-items:center;gap:18px"><div style="width:52px;height:52px;border-radius:14px;background:#fde3d4;display:flex;align-items:center;justify-content:center"><x-icon name="Lightbulb" style="color:#e04800;width:28px;height:28px"></x-icon></div><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1;color:#222222">Мотивация</h3></div><ul style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.4;color:#5b5048"><li>[Чего хочет добиться]</li><li>[Что&nbsp;для&nbsp;него важно в&nbsp;продукте]</li><li>[Какой результат считает успехом]</li></ul></div>
+<div style="position:absolute;left:940px;top:484px;width:920px;height:234px;background:#ffffff;border-radius:22px;padding:28px 36px;display:flex;flex-direction:column;gap:18px"><div style="display:flex;align-items:center;gap:18px"><div style="width:52px;height:52px;border-radius:14px;background:#fde3d4;display:flex;align-items:center;justify-content:center"><x-icon name="Warning" style="color:#e04800;width:28px;height:28px"></x-icon></div><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1;color:#222222">Боли</h3></div><ul style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.4;color:#5b5048"><li>[Что&nbsp;раздражает сейчас]</li><li>[На&nbsp;что&nbsp;тратит лишнее время или&nbsp;деньги]</li><li>[Почему текущие решения не&nbsp;подходят]</li></ul></div>
+<div style="position:absolute;left:940px;top:738px;width:920px;height:234px;background:#ffffff;border-radius:22px;padding:28px 36px;display:flex;flex-direction:column;gap:18px"><div style="display:flex;align-items:center;gap:18px"><div style="width:52px;height:52px;border-radius:14px;background:#fde3d4;display:flex;align-items:center;justify-content:center"><x-icon name="CheckCircle" style="color:#e04800;width:28px;height:28px"></x-icon></div><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1;color:#222222">Потребности</h3></div><ul style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.4;color:#5b5048"><li>[Что&nbsp;должен дать продукт]</li><li>[Без&nbsp;чего не&nbsp;станет пользоваться]</li><li>[Что&nbsp;поможет выбрать вас]</li></ul></div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">09a</p>
+<aside>Слайд 09a&nbsp;— Персона, карточка. Слева блок под&nbsp;фото персоны (замените однотонный прямоугольник на&nbsp;изображение), сверху миниатюры остальных персон&nbsp;— активная обведена оранжевым, снизу имя, возраст, роль и&nbsp;сегмент. Справа три блока по&nbsp;три пункта: мотивация, боли, потребности. Каждый пункт&nbsp;— из&nbsp;интервью, а&nbsp;не&nbsp;придуман. Копируйте слайд под&nbsp;каждую персону.</aside>
+</section>
+
+<!-- Слайд 09b — Персона, анкета -->
+<section id="09b-persona-anketa" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div>
+<h2 style="position:absolute;left:60px;top:140px;width:1800px;font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;line-height:1;letter-spacing:-1px;text-transform:uppercase;color:#222222">[Персона: имя]</h2>
+<div style="position:absolute;left:60px;top:230px;width:1800px;height:742px;background:#ffffff;border-radius:28px"></div>
+<div style="position:absolute;left:108px;top:270px;width:220px;height:220px;background:#dcdfe4;border-radius:999px"></div>
+<div style="position:absolute;left:380px;top:270px;width:1432px;height:80px;border:3px solid #e04800;border-radius:999px;display:flex;align-items:center;justify-content:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:28px;font-weight:600;line-height:1;color:#e04800">«[Цитата персоны одной фразой&nbsp;— её главная мысль]»</p></div>
+<p style="position:absolute;left:380px;top:384px;width:400px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:2px;line-height:1;text-transform:uppercase;color:#e04800">Профиль</p>
+<p style="position:absolute;left:380px;top:428px;width:340px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">Возраст<span style="color:#222222">&#160;&#160;&#160;[00]</span></p>
+<p style="position:absolute;left:740px;top:428px;width:340px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">Город<span style="color:#222222">&#160;&#160;&#160;[Город]</span></p>
+<p style="position:absolute;left:380px;top:472px;width:340px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">Работа<span style="color:#222222">&#160;&#160;&#160;[Должность]</span></p>
+<p style="position:absolute;left:740px;top:472px;width:340px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">Доход<span style="color:#222222">&#160;&#160;&#160;[₽00 000]</span></p>
+<p style="position:absolute;left:380px;top:516px;width:340px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">Семья<span style="color:#222222">&#160;&#160;&#160;[Статус]</span></p>
+<p style="position:absolute;left:740px;top:516px;width:340px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">Гаджеты<span style="color:#222222">&#160;&#160;&#160;[iOS / Android]</span></p>
+<p style="position:absolute;left:1140px;top:384px;width:400px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:2px;line-height:1;text-transform:uppercase;color:#e04800">Характер</p>
+<p style="position:absolute;left:1140px;top:428px;width:190px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">[Интроверт]</p>
+<div style="position:absolute;left:1340px;top:438px;width:280px;height:4px;background:#e1e3e7;border-radius:999px"></div>
+<x-shape kind="ellipse" style="position:absolute;left:1539px;top:429px;width:22px;height:22px;background:#e04800"></x-shape>
+<p style="position:absolute;left:1636px;top:428px;width:180px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">[Экстраверт]</p>
+<p style="position:absolute;left:1140px;top:472px;width:190px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">[Экономит]</p>
+<div style="position:absolute;left:1340px;top:482px;width:280px;height:4px;background:#e1e3e7;border-radius:999px"></div>
+<x-shape kind="ellipse" style="position:absolute;left:1413px;top:473px;width:22px;height:22px;background:#e04800"></x-shape>
+<p style="position:absolute;left:1636px;top:472px;width:180px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">[Тратит]</p>
+<p style="position:absolute;left:1140px;top:516px;width:190px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">[Осторожный]</p>
+<div style="position:absolute;left:1340px;top:526px;width:280px;height:4px;background:#e1e3e7;border-radius:999px"></div>
+<x-shape kind="ellipse" style="position:absolute;left:1497px;top:517px;width:22px;height:22px;background:#e04800"></x-shape>
+<p style="position:absolute;left:1636px;top:516px;width:180px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">[Рискует]</p>
+<p style="position:absolute;left:108px;top:580px;width:400px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:2px;line-height:1;text-transform:uppercase;color:#e04800">Сценарий</p>
+<p style="position:absolute;left:108px;top:620px;width:1704px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.45;color:#5b5048">[Один день из&nbsp;жизни персоны: когда и&nbsp;где возникает задача, что&nbsp;делает сейчас, на&nbsp;каком шаге спотыкается и&nbsp;в&nbsp;какой момент к&nbsp;ней приходит ваш продукт. Три-четыре строки живым языком, как&nbsp;в&nbsp;рассказе.]</p>
+<p style="position:absolute;left:108px;top:760px;width:400px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:2px;line-height:1;text-transform:uppercase;color:#e04800">Боли</p>
+<p style="position:absolute;left:980px;top:760px;width:400px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:2px;line-height:1;text-transform:uppercase;color:#e04800">Потребности</p>
+<p style="position:absolute;left:108px;top:800px;width:832px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222;border-top:1px solid #e1e3e7;padding:22px 0px 0px">[Боль 1&nbsp;— коротко и&nbsp;конкретно]</p>
+<p style="position:absolute;left:108px;top:872px;width:832px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222;border-top:1px solid #e1e3e7;padding:22px 0px 0px">[Боль 2&nbsp;— коротко и&nbsp;конкретно]</p>
+<p style="position:absolute;left:980px;top:800px;width:832px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222;border-top:1px solid #e1e3e7;padding:22px 0px 0px">[Потребность 1&nbsp;— что&nbsp;должен дать продукт]</p>
+<p style="position:absolute;left:980px;top:872px;width:832px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222;border-top:1px solid #e1e3e7;padding:22px 0px 0px">[Потребность 2&nbsp;— что&nbsp;должен дать продукт]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">09b</p>
+<aside>Слайд 09b&nbsp;— Персона, анкета. Аватар (однотонный круг&nbsp;— замените на&nbsp;фото), цитата персоны в&nbsp;оранжевой рамке, профиль, шкалы характера (двигайте оранжевую точку), сценарий одного дня, боли и&nbsp;потребности. Хорошо работает в&nbsp;паре с&nbsp;09a: на&nbsp;09a&nbsp;— кто это, на&nbsp;09b&nbsp;— как&nbsp;живёт. Копируйте слайд под&nbsp;каждую персону.</aside>
+</section>
+
+<!-- Слайд 10 — Бизнес-модель -->
+<section id="10-biznes-model" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:64px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Откуда деньги</h2>
+<div style="display:flex;gap:64px">
+<div style="width:880px;display:flex;flex-direction:column;gap:24px">
+<div style="background:#ffffff;border-radius:22px;padding:36px 40px;display:flex;align-items:center;justify-content:space-between"><p style="font-size:32px;font-weight:600;color:#222222">[Источник выручки 1]</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800;color:#d84800">[00%]</p></div>
+<div style="background:#ffffff;border-radius:22px;padding:36px 40px;display:flex;align-items:center;justify-content:space-between"><p style="font-size:32px;font-weight:600;color:#222222">[Источник выручки 2]</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800;color:#d84800">[00%]</p></div>
+<div style="background:#ffffff;border-radius:22px;padding:36px 40px;display:flex;align-items:center;justify-content:space-between"><p style="font-size:32px;font-weight:600;color:#222222">[Источник выручки 3]</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:40px;font-weight:800;color:#d84800">[00%]</p></div>
+</div>
+<div style="flex:1;background:#16100d;border-radius:22px;padding:48px;display:flex;flex-direction:column;justify-content:center;gap:20px">
+<p style="font-size:26px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#fc5400">Средний чек</p>
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:88px;font-weight:800;line-height:1;color:#ffffff">[₽0 000]</p>
+<p style="font-size:28px;line-height:1.4;color:#c9bdb6">[Как&nbsp;часто платят и&nbsp;за&nbsp;что&nbsp;именно]</p>
+</div>
+</div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">10</p>
+<aside>Слайд 10&nbsp;— Бизнес-модель. Слева перечень источников выручки с&nbsp;долями, справа средний чек. Доли должны складываться в&nbsp;100%. Если источник один&nbsp;— это хорошо, так и&nbsp;покажите, не&nbsp;выдумывайте остальные.</aside>
+</section>
+
+<!-- Слайд 11 — Юнит-экономика -->
+<section id="11-unit-ekonomika" data-transition="fade" style="background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Юнит-экономика</h2>
+<div style="flex:1;display:flex;flex-direction:column"><div style="flex:1;display:grid;grid-template-columns:560px 1fr 1fr 1fr;gap:48px;padding:20px 0px"><div style="background:#fc5400;border-radius:22px;padding:36px 36px;display:flex;align-items:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.25;color:#ffffff">[Экономика сходится]</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[0,0]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">LTV / CAC&nbsp;— [окупается за&nbsp;0 мес.]</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[00%]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">маржа&nbsp;— [растёт с&nbsp;масштабом]</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[0 000]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">клиентов до&nbsp;точки безубыточности</p></div></div><div style="flex:1;display:grid;grid-template-columns:560px 1fr 1fr 1fr;gap:48px;border-top:1px solid #2e1c14;padding:20px 0px"><div style="padding:0px 36px;display:flex;align-items:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.25;color:#ffffff">Доход с&nbsp;клиента</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[₽0 000]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">средний чек&nbsp;— [откуда цифра]</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[₽0 000]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">LTV&nbsp;— [горизонт расчёта]</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[00%]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">повторные покупки за&nbsp;[период]</p></div></div><div style="flex:1;display:grid;grid-template-columns:560px 1fr 1fr 1fr;gap:48px;border-top:1px solid #2e1c14;padding:20px 0px"><div style="padding:0px 36px;display:flex;align-items:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.25;color:#ffffff">Затраты на&nbsp;клиента</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[₽0 000]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">себестоимость&nbsp;— [что&nbsp;входит]</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[₽0 000]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">CAC&nbsp;— [канал привлечения]</p></div><div style="display:flex;flex-direction:column;gap:12px;justify-content:center"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1;color:#ffffff">[00%]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#c9bdb6">доля маркетинга в&nbsp;выручке</p></div></div></div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">11</p>
+<aside>Слайд 11&nbsp;— Юнит-экономика. Три строки: главный вывод (выделен оранжевым), доход с&nbsp;клиента и&nbsp;затраты на&nbsp;клиента; в&nbsp;каждой по&nbsp;три цифры с&nbsp;короткой подписью, откуда она. Подпись важнее самой цифры: она показывает, что&nbsp;вы&nbsp;понимаете, откуда числа. LTV/CAC ниже трёх объясняйте сразу, не&nbsp;ждите вопроса.</aside>
+</section>
+
+<!-- Слайд 11a — Подписочная модель -->
+<section id="11a-podpiska" data-transition="fade" style="background:radial-gradient(ellipse at 55% 0%, #8a2b00 0%, #3a1005 38%, #140b08 75%);color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div>
+<p style="position:absolute;left:60px;top:150px;width:800px;font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:700;letter-spacing:3px;line-height:1;text-transform:uppercase;color:#fc5400">[Модель монетизации]</p>
+<h2 style="position:absolute;left:60px;top:200px;width:1100px;font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:800;line-height:1.05;letter-spacing:-2px;text-transform:uppercase;color:#ffffff">Тарифы подписки</h2>
+<div style="position:absolute;left:60px;top:390px;width:578px;height:582px;background:#1e120c;border-radius:28px;padding:48px;display:flex;flex-direction:column;gap:24px;align-items:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:32px;font-weight:600;line-height:1;color:#fc5400">[Бесплатный]</p><div style="display:flex;align-items:end;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:88px;font-weight:800;line-height:1;letter-spacing:-2px;color:#ffffff">[₽0]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.6;color:#c9bdb6">/ мес</p></div><div style="align-self:stretch;height:2px;background:#3a2a22"></div><div style="align-self:stretch;display:flex;flex-direction:column;gap:18px"><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#fc5400;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Базовая функция]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#fc5400;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Доступ к&nbsp;сообществу]</p></div><div style="display:flex;gap:16px;align-items:center;opacity:0.5"><x-icon name="Lock" style="color:#8c7d74;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#c9bdb6;text-decoration:line-through">[Без&nbsp;рекламы]</p></div></div></div>
+<div style="position:absolute;left:671px;top:390px;width:578px;height:582px;background:#1e120c;border-radius:28px;padding:48px;display:flex;flex-direction:column;gap:24px;align-items:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:32px;font-weight:600;line-height:1;color:#fc5400">[Базовый]</p><div style="display:flex;align-items:end;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:88px;font-weight:800;line-height:1;letter-spacing:-2px;color:#ffffff">[₽000]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.6;color:#c9bdb6">/ мес</p></div><div style="align-self:stretch;height:2px;background:#3a2a22"></div><div style="align-self:stretch;display:flex;flex-direction:column;gap:18px"><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#fc5400;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Всё из&nbsp;бесплатного]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#fc5400;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Функция 2]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#fc5400;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Аналитика]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#fc5400;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Без&nbsp;рекламы]</p></div></div></div>
+<div style="position:absolute;left:1282px;top:340px;width:578px;height:632px;background:#fc5400;border-radius:28px;padding:48px;box-shadow:0px 24px 60px rgba(252,84,0,0.35);display:flex;flex-direction:column;gap:24px;align-items:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:32px;font-weight:600;line-height:1;color:#ffffff">[Про]</p><div style="display:flex;align-items:end;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:88px;font-weight:800;line-height:1;letter-spacing:-2px;color:#ffffff">[₽000]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.6;color:#ffe3d2">/ мес</p></div><div style="align-self:stretch;height:2px;background:rgba(255,255,255,0.4)"></div><div style="align-self:stretch;display:flex;flex-direction:column;gap:18px"><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#ffffff;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Всё из&nbsp;базового]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#ffffff;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Персональный режим]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#ffffff;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Функция 3]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#ffffff;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Эксклюзивный контент]</p></div><div style="display:flex;gap:16px;align-items:center"><x-icon name="CheckCircle" style="color:#ffffff;width:32px;height:32px"></x-icon><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#ffffff">[Приоритетная поддержка]</p></div></div></div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">11a</p>
+<aside>Слайд 11a&nbsp;— Подписочная модель. Три тарифа: бесплатный вход, базовый и&nbsp;главный (выделен оранжевым и&nbsp;поднят&nbsp;— на&nbsp;него вы&nbsp;рассчитываете основную выручку). Под&nbsp;ценой&nbsp;— что&nbsp;входит; недоступное в&nbsp;тарифе показано зачёркнутым. Цены должны сходиться с&nbsp;юнит-экономикой на&nbsp;слайде 11. Годовая оплата со&nbsp;скидкой&nbsp;— подпишите отдельно.</aside>
+</section>
+
+<!-- Слайд 12 — Тяга -->
+<section id="12-tyaga" data-transition="fade" style="display:flex; flex-direction:column; justify-content:space-between; padding:60px 60px 108px; background:linear-gradient(135deg, #fc5400 0%, #d85004 34%, #8a2b00 72%, #170a04 100%)">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:24px; align-items:center">
+    <p style="font-family:Inter, Arial, sans-serif; font-size:28px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#ffffffcc">[Главная метрика]</p>
+    <h1 style="font-family:Unbounded, Arial, sans-serif; font-size:220px; font-weight:800; line-height:0.9; letter-spacing:-8px; color:#ffffff">[0 000]</h1>
+    <p style="font-family:Inter, Arial, sans-serif; font-size:34px; color:#ffffffe0">[За&nbsp;какой период и&nbsp;с&nbsp;какого старта]</p>
+  </div>
+  <div style="display:flex; flex-direction:row; gap:24px; justify-content:center">
+    <div style="display:flex; flex-direction:column; gap:8px; padding:24px 36px; background:#ffffff; border-radius:14px">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:800; color:#222222">[0]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; color:#5b5048">[метрика]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:8px; padding:24px 36px; background:#ffffff; border-radius:14px">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:800; color:#222222">[0]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; color:#5b5048">[метрика]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:8px; padding:24px 36px; background:#ffffff; border-radius:14px">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:800; color:#222222">[0]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; color:#5b5048">[метрика]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:8px; padding:24px 36px; background:#ffffff; border-radius:14px">
+      <p style="font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:800; color:#222222">[0]</p>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; color:#5b5048">[метрика]</p>
+    </div>
+  </div>
+  <p style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#ffffffb3">12</p>
+  <aside>Слайд 12&nbsp;— Тяга. Одна цифра-герой во&nbsp;весь слайд, под&nbsp;ней четыре чипа поменьше. Это слайд, ради которого слушают весь питч. Если тяги пока нет&nbsp;— ставьте метрику подготовки: интервью, пилоты, письма о&nbsp;намерениях. Пустой слайд хуже скромного.</aside>
+</section>
+
+<!-- Слайд 13 — График -->
+<section id="13-grafik" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">[Рост выручки]</h2>
+<div style="position:relative;flex:1">
+<svg aria-label="График роста: кривая поднимается слева направо" width="1664" height="520" viewBox="0 0 1664 520">
+<line x1="0" y1="519" x2="1664" y2="519" stroke="#d6cfc8" stroke-width="2"/>
+<line x1="0" y1="390" x2="1664" y2="390" stroke="#e6e0da" stroke-width="2"/>
+<line x1="0" y1="260" x2="1664" y2="260" stroke="#e6e0da" stroke-width="2"/>
+<line x1="0" y1="130" x2="1664" y2="130" stroke="#e6e0da" stroke-width="2"/>
+<path d="M0 470 L277 440 L554 392 L831 300 L1108 196 L1385 110 L1664 30" fill="none" stroke="#d84800" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1664" cy="30" r="14" fill="#d84800"/>
+</svg>
+<p style="position:absolute;left:0px;bottom:-40px;width:1664px;font-size:24px;color:#8a7d74">[янв] · [фев] · [мар] · [апр] · [май] · [июн] · [июл]</p>
+</div>
+<p style="font-size:28px;line-height:1.4;color:#5b5048;width:1400px">[Одна фраза: что&nbsp;именно выросло, во&nbsp;сколько раз и&nbsp;за&nbsp;счёт чего. По&nbsp;оси Y&nbsp;— [единица измерения].]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">13</p>
+<aside>Слайд 13&nbsp;— График. Одна линия, одна мысль. Подписи осей обязательны. Не&nbsp;ставить два графика на&nbsp;слайд и&nbsp;не&nbsp;рисовать прогноз той&nbsp;же линией, что&nbsp;факт: прогноз&nbsp;— пунктиром и&nbsp;с&nbsp;подписью.</aside>
+</section>
+
+<!-- Слайд 13a — Финансовая динамика -->
+<section id="13a-finansy" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<svg aria-label="Линейный график выручки по кварталам" width="740" height="520" viewBox="0 0 740 520" style="position:absolute;left:150px;top:390px;width:740px;height:520px"><defs><linearGradient id="fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fc5400" stop-opacity="0.35"/><stop offset="1" stop-color="#fc5400" stop-opacity="0.03"/></linearGradient></defs><line x1="0" y1="0" x2="740" y2="0" stroke="#e1e3e7" stroke-width="2"/><line x1="0" y1="130" x2="740" y2="130" stroke="#e1e3e7" stroke-width="2"/><line x1="0" y1="260" x2="740" y2="260" stroke="#e1e3e7" stroke-width="2"/><line x1="0" y1="390" x2="740" y2="390" stroke="#e1e3e7" stroke-width="2"/><line x1="0" y1="519" x2="740" y2="519" stroke="#c4c8ce" stroke-width="2"/><path d="M0 520 L160 277 L340 185 L520 116 L700 81 L740 75 L740 520 Z" fill="url(#fa)"/><path d="M0 520 L160 277 L340 185 L520 116 L700 81 L740 75" fill="none" stroke="#e04800" stroke-width="5" stroke-linejoin="round"/><circle cx="160" cy="277" r="9" fill="#ffffff" stroke="#e04800" stroke-width="5"/><circle cx="340" cy="185" r="9" fill="#ffffff" stroke="#e04800" stroke-width="5"/><circle cx="520" cy="116" r="9" fill="#ffffff" stroke="#e04800" stroke-width="5"/><circle cx="700" cy="81" r="9" fill="#ffffff" stroke="#e04800" stroke-width="5"/></svg>
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div></div>
+<h2 style="position:absolute;left:60px;top:150px;width:1800px;font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Финансовая динамика</h2>
+<p style="position:absolute;left:60px;top:300px;width:600px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#5b5048">Ось Y&nbsp;— [выручка, ₽ млн]</p>
+<p style="position:absolute;left:560px;top:300px;width:330px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#5b5048">Ось X&nbsp;— квартал</p>
+<p style="position:absolute;left:60px;top:378px;width:70px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[40]</p>
+<p style="position:absolute;left:60px;top:508px;width:70px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[30]</p>
+<p style="position:absolute;left:60px;top:638px;width:70px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[20]</p>
+<p style="position:absolute;left:60px;top:768px;width:70px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[10]</p>
+<p style="position:absolute;left:60px;top:898px;width:70px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">0</p>
+<p style="position:absolute;left:250px;top:928px;width:120px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">I кв.</p>
+<p style="position:absolute;left:250px;top:615px;width:120px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00]</p>
+<p style="position:absolute;left:430px;top:928px;width:120px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">II кв.</p>
+<p style="position:absolute;left:430px;top:523px;width:120px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00]</p>
+<p style="position:absolute;left:610px;top:928px;width:120px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">III кв.</p>
+<p style="position:absolute;left:610px;top:454px;width:120px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00]</p>
+<p style="position:absolute;left:790px;top:928px;width:120px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#5b5048">IV кв.</p>
+<p style="position:absolute;left:790px;top:419px;width:120px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00]</p>
+<div style="position:absolute;left:1000px;top:300px;width:420px;display:flex;align-items:center;gap:14px"><div style="width:24px;height:24px;border-radius:6px;background:#8a2b00"></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222">[Направление 1]</p></div>
+<p style="position:absolute;left:1000px;top:556px;width:150px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00%]</p>
+<div style="position:absolute;left:1000px;top:600px;width:150px;height:300px;background:#8a2b00;border-radius:14px 14px 0px 0px"></div>
+<p style="position:absolute;left:980px;top:918px;width:190px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.2;color:#5b5048">доля выручки</p>
+<div style="position:absolute;left:1430px;top:300px;width:420px;display:flex;align-items:center;gap:14px"><div style="width:24px;height:24px;border-radius:6px;background:#e04800"></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222">[Направление 2]</p></div>
+<p style="position:absolute;left:1236px;top:456px;width:150px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00%]</p>
+<div style="position:absolute;left:1236px;top:500px;width:150px;height:400px;background:#e04800;border-radius:14px 14px 0px 0px"></div>
+<p style="position:absolute;left:1216px;top:918px;width:190px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.2;color:#5b5048">доля выручки</p>
+<div style="position:absolute;left:1000px;top:348px;width:420px;display:flex;align-items:center;gap:14px"><div style="width:24px;height:24px;border-radius:6px;background:#fc8a4c"></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222">[Направление 3]</p></div>
+<p style="position:absolute;left:1472px;top:686px;width:150px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00%]</p>
+<div style="position:absolute;left:1472px;top:730px;width:150px;height:170px;background:#fc8a4c;border-radius:14px 14px 0px 0px"></div>
+<p style="position:absolute;left:1452px;top:918px;width:190px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.2;color:#5b5048">доля выручки</p>
+<div style="position:absolute;left:1430px;top:348px;width:420px;display:flex;align-items:center;gap:14px"><div style="width:24px;height:24px;border-radius:6px;background:#222222"></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#222222">[Направление 4]</p></div>
+<p style="position:absolute;left:1708px;top:744px;width:150px;text-align:center;font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1;color:#222222">[00%]</p>
+<div style="position:absolute;left:1708px;top:788px;width:150px;height:112px;background:#222222;border-radius:14px 14px 0px 0px"></div>
+<p style="position:absolute;left:1688px;top:918px;width:190px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.2;color:#5b5048">доля выручки</p>
+<hr style="position:absolute;left:1000px;top:900px;width:860px;border-top:2px solid #c4c8ce">
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">13a</p>
+<aside>Слайд 13a&nbsp;— Финансовая динамика. Слева рост выручки по&nbsp;кварталам: линия с&nbsp;заливкой, над&nbsp;точками значения. Справа доля выручки по&nbsp;направлениям: столбцы&nbsp;— обычные блоки, меняйте их&nbsp;высоту под&nbsp;свои проценты (100% ≈ 620&nbsp;px). Кривую слева правьте по&nbsp;описанию в&nbsp;заметках или&nbsp;попросите перерисовать под&nbsp;ваши цифры. Прогноз, если он&nbsp;есть, подпишите отдельно.</aside>
+</section>
+
+<!-- Слайд 14 — Конкуренты -->
+<section id="14-konkurenty" data-transition="fade" style="background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Почему мы</h2>
+<div style="flex:1;display:grid;grid-template-columns:420px 1fr 1fr 1fr;border:2px dashed #3a2a22;border-radius:28px"><div style="display:flex;flex-direction:column;gap:8px;padding:16px;"><div style="height:96px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#ffffff">Критерий</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#ffffff">[Критерий 1]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#ffffff">[Критерий 2]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#ffffff">[Критерий 3]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#ffffff">Цена</p></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-left:2px dashed #3a2a22;"><div style="height:96px;background:#fc5400;border-radius:22px;display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#ffffff">Мы</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#fc5400">[Да, как&nbsp;именно]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#fc5400">[Да, как&nbsp;именно]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#fc5400">[Да, как&nbsp;именно]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#fc5400">[₽0 000]</p></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-left:2px dashed #3a2a22;"><div style="height:96px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#ffffff">[Конкурент 1]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Нет]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Частично]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Нет]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[₽0 000]</p></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-left:2px dashed #3a2a22;"><div style="height:96px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#ffffff">[Конкурент 2]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Частично]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Нет]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Нет]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[₽0 000]</p></div></div></div>
+<p style="font-size:28px;line-height:1.4;color:#c9bdb6;width:1500px">[Одна фраза: в&nbsp;чём ваше преимущество удержится, когда конкурент скопирует функцию.]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">14</p>
+<aside>Слайд 14&nbsp;— Конкуренты. Четыре критерия, выбранных так, чтобы честно показать и&nbsp;то, где вы&nbsp;слабее. Таблица, где у&nbsp;вас везде плюсы, а&nbsp;у&nbsp;всех остальных минусы, работает против вас. Последняя фраза про&nbsp;защищаемость&nbsp;— самая важная строка слайда.</aside>
+</section>
+
+<!-- Слайд 14a — SWOT-анализ -->
+<section id="14a-swot" data-transition="fade" style="background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div>
+<p style="position:absolute;left:60px;top:140px;width:800px;font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:700;letter-spacing:3px;line-height:1;text-transform:uppercase;color:#fc5400">[Стратегия]</p>
+<h2 style="position:absolute;left:60px;top:184px;width:1800px;font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;line-height:1;letter-spacing:-1px;text-transform:uppercase;color:#ffffff">SWOT-анализ</h2>
+<p style="position:absolute;left:60px;top:254px;width:1600px;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#8c7d74">[Одна фраза: главный вывод из&nbsp;анализа&nbsp;— на&nbsp;чём строим стратегию.]</p>
+<div style="position:absolute;left:120px;top:320px;width:870px;height:320px;background:#1e120c"></div>
+<p style="position:absolute;left:730px;top:330px;width:230px;text-align:right;font-family:'Unbounded', Arial, sans-serif;font-size:180px;font-weight:800;line-height:1;color:rgba(255,255,255,0.07)">S</p>
+<div style="position:absolute;left:168px;top:444px;width:570px;display:flex;flex-direction:column;gap:12px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">Сильные стороны</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Главное преимущество]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#c9bdb6">[Что&nbsp;у&nbsp;вас получается лучше других. Одна-две строки.]</p></div>
+<div style="position:absolute;left:990px;top:320px;width:870px;height:320px;background:#2a1a12"></div>
+<p style="position:absolute;left:1600px;top:330px;width:230px;text-align:right;font-family:'Unbounded', Arial, sans-serif;font-size:180px;font-weight:800;line-height:1;color:rgba(255,255,255,0.07)">W</p>
+<div style="position:absolute;left:1038px;top:444px;width:570px;display:flex;flex-direction:column;gap:12px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">Слабые стороны</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Что&nbsp;нужно усилить]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#c9bdb6">[Чего не&nbsp;хватает сейчас и&nbsp;как&nbsp;закрываете.]</p></div>
+<div style="position:absolute;left:120px;top:640px;width:870px;height:320px;background:#2a1a12"></div>
+<p style="position:absolute;left:730px;top:650px;width:230px;text-align:right;font-family:'Unbounded', Arial, sans-serif;font-size:180px;font-weight:800;line-height:1;color:rgba(255,255,255,0.07)">O</p>
+<div style="position:absolute;left:168px;top:764px;width:570px;display:flex;flex-direction:column;gap:12px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">Возможности</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Куда можно вырасти]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#c9bdb6">[Внешний тренд или&nbsp;окно на&nbsp;рынке.]</p></div>
+<div style="position:absolute;left:990px;top:640px;width:870px;height:320px;background:#1e120c"></div>
+<p style="position:absolute;left:1600px;top:650px;width:230px;text-align:right;font-family:'Unbounded', Arial, sans-serif;font-size:180px;font-weight:800;line-height:1;color:rgba(255,255,255,0.07)">T</p>
+<div style="position:absolute;left:1038px;top:764px;width:570px;display:flex;flex-direction:column;gap:12px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">Угрозы</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#ffffff">[Что&nbsp;может помешать]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#c9bdb6">[Конкурент, регулирование, зависимость.]</p></div>
+<x-connector x1="100" y1="980" x2="100" y2="310" head="end" head-end="open" route="straight" style="color:#8c7d74;border-width:2px"></x-connector>
+<x-connector x1="100" y1="980" x2="1860" y2="980" head="end" head-end="open" route="straight" style="color:#8c7d74;border-width:2px"></x-connector>
+<p style="position:absolute;left:136px;top:338px;width:260px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1.2;color:#ffffff">Внутренние<br>факторы</p>
+<p style="position:absolute;left:136px;top:658px;width:260px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1.2;color:#ffffff">Внешние<br>факторы</p>
+<p style="position:absolute;left:120px;top:994px;width:400px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#8c7d74">Помогает</p>
+<p style="position:absolute;left:990px;top:994px;width:400px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#8c7d74">Мешает</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">14a</p>
+<aside>Слайд 14a&nbsp;— SWOT-анализ. Верхний ряд&nbsp;— внутренние факторы (сильные и&nbsp;слабые стороны), нижний&nbsp;— внешние (возможности и&nbsp;угрозы). Левая колонка помогает, правая мешает. В&nbsp;каждой клетке одна мысль и&nbsp;одна строка пояснения: SWOT на&nbsp;питче&nbsp;— не&nbsp;список, а&nbsp;вывод. Подзаголовок над&nbsp;матрицей&nbsp;— главное, что&nbsp;из&nbsp;него следует.</aside>
+</section>
+
+<!-- Слайд 15 — Отзывы -->
+<section id="15-otzyvy" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:64px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Что&nbsp;говорят клиенты</h2>
+<div style="display:flex;gap:32px">
+<div style="flex:1;background:#ffffff;border-radius:22px;padding:48px;display:flex;flex-direction:column;gap:28px"><p style="font-size:32px;line-height:1.4;color:#222222">«[Цитата клиента: что&nbsp;изменилось в&nbsp;его работе. Три-четыре строки.]»</p><p style="font-size:26px;line-height:1.35;color:#5b5048">[Имя]<br>[должность, компания]</p></div>
+<div style="flex:1;background:#ffffff;border-radius:22px;padding:48px;display:flex;flex-direction:column;gap:28px"><p style="font-size:32px;line-height:1.4;color:#222222">«[Цитата клиента: что&nbsp;изменилось в&nbsp;его работе. Три-четыре строки.]»</p><p style="font-size:26px;line-height:1.35;color:#5b5048">[Имя]<br>[должность, компания]</p></div>
+<div style="flex:1;background:#16100d;border-radius:22px;padding:48px;display:flex;flex-direction:column;gap:28px"><p style="font-size:32px;line-height:1.4;color:#ffffff">«[Цитата клиента: что&nbsp;изменилось в&nbsp;его работе. Три-четыре строки.]»</p><p style="font-size:26px;line-height:1.35;color:#c9bdb6">[Имя]<br>[должность, компания]</p></div>
+</div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">15</p>
+<aside>Слайд 15&nbsp;— Отзывы. Только настоящие цитаты реальных пользователей, с&nbsp;именем и&nbsp;местом работы. Анонимный отзыв не&nbsp;считается. Если отзывов нет&nbsp;— удалите слайд, а&nbsp;не&nbsp;придумывайте их.</aside>
+</section>
+
+<!-- Слайд 16 — Дорожная карта -->
+<section id="16-roadmap" data-transition="fade" style="display:flex; flex-direction:column; padding:60px 60px 108px; background:linear-gradient(180deg, #140b08 0%, #140b08 45%, #1f0f08 75%, #3a1606 100%)">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#fc5400">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+    <p style="padding:14px 28px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-transform:uppercase; color:#ffffff; background:#ffffff14; border-radius:256px">Дорожная карта</p>
+  </div>
+  <x-connector x1="60" y1="500" x2="1860" y2="500" head-end="open" style="color:#4a3328"></x-connector>
+  <p style="position:absolute; top:392px; left:60px; padding:12px 26px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; white-space:nowrap; color:#ffffff; background:#fc5400; border-radius:256px">[I кв. 2026]</p>
+  <x-shape kind="ellipse" style="position:absolute; top:488px; left:64px; width:24px; height:24px; background:#fc5400; box-shadow:0 0 0 8px #fc540038"></x-shape>
+  <h3 style="position:absolute; top:552px; left:60px; width:400px; font-family:Unbounded, Arial, sans-serif; font-size:34px; font-weight:700; line-height:1.15; text-transform:uppercase; color:#ffffff">Сделано</h3>
+  <p style="position:absolute; top:614px; left:60px; width:380px; font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#c9bdb6">[Что&nbsp;уже выпущено]<br>многааа текста можноооооо здеееесь</p>
+  <p style="position:absolute; top:392px; left:510px; padding:12px 26px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; white-space:nowrap; color:#ffffff; background:#fc5400; border-radius:256px">[II кв. 2026]</p>
+  <x-shape kind="ellipse" style="position:absolute; top:488px; left:514px; width:24px; height:24px; background:#fc5400; box-shadow:0 0 0 8px #fc540038"></x-shape>
+  <h3 style="position:absolute; top:552px; left:510px; width:400px; font-family:Unbounded, Arial, sans-serif; font-size:34px; font-weight:700; line-height:1.15; text-transform:uppercase; color:#ffffff">Сделано</h3>
+  <p style="position:absolute; top:614px; left:510px; width:380px; font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#c9bdb6">[Что&nbsp;уже выпущено]</p>
+  <p style="position:absolute; top:392px; left:960px; padding:12px 26px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; white-space:nowrap; color:#c9bdb6; background:#ffffff14; border-radius:256px">[III кв. 2026]</p>
+  <x-shape kind="ellipse" style="position:absolute; top:488px; left:964px; width:24px; height:24px; background:#8c7d74; box-shadow:0 0 0 8px #ffffff14"></x-shape>
+  <h3 style="position:absolute; top:552px; left:960px; width:400px; font-family:Unbounded, Arial, sans-serif; font-size:34px; font-weight:700; line-height:1.15; text-transform:uppercase; color:#c9bdb6">В&nbsp;работе</h3>
+  <p style="position:absolute; top:614px; left:960px; width:380px; font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#8c7d74">[Что&nbsp;запускаете]</p>
+  <p style="position:absolute; top:392px; left:1410px; padding:12px 26px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; white-space:nowrap; color:#c9bdb6; background:#ffffff14; border-radius:256px">[IV кв. 2026]</p>
+  <x-shape kind="ellipse" style="position:absolute; top:488px; left:1414px; width:24px; height:24px; background:#8c7d74; box-shadow:0 0 0 8px #ffffff14"></x-shape>
+  <h3 style="position:absolute; top:552px; left:1410px; width:400px; font-family:Unbounded, Arial, sans-serif; font-size:34px; font-weight:700; line-height:1.15; text-transform:uppercase; color:#c9bdb6">План</h3>
+  <p style="position:absolute; top:614px; left:1410px; width:380px; font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#8c7d74">[Что&nbsp;планируете]</p>
+  <p style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#8c7d74">16</p>
+  <aside>Слайд 16&nbsp;— Дорожная карта. Таймлайн из&nbsp;четырёх кварталов: плашка с&nbsp;периодом, точка на&nbsp;общей линии, статус и&nbsp;результат. Пройденное&nbsp;— оранжевым, будущее&nbsp;— приглушённым. Горизонт больше года на&nbsp;питче не&nbsp;показывают&nbsp;— в&nbsp;него никто не&nbsp;верит. Каждый пункт&nbsp;— результат, а&nbsp;не&nbsp;задача: «запустили оплату», а&nbsp;не&nbsp;«работаем над&nbsp;оплатой».</aside>
+</section>
+
+<!-- Слайд 16a — Таймлайн -->
+<section id="16a-timeline" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<x-connector x1="60" y1="280" x2="60" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="240" y1="280" x2="240" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="420" y1="280" x2="420" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="600" y1="280" x2="600" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="780" y1="280" x2="780" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="960" y1="280" x2="960" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="1140" y1="280" x2="1140" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="1320" y1="280" x2="1320" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="1500" y1="280" x2="1500" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="1680" y1="280" x2="1680" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<x-connector x1="1860" y1="280" x2="1860" y2="972" head="none" route="straight" style="color:#d4d7dc;border-width:2px;border-style:dashed"></x-connector>
+<p style="position:absolute;left:60px;top:140px;width:600px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#6b7078">[Путь проекта]</p>
+<h2 style="position:absolute;left:60px;top:176px;width:1400px;font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;line-height:1.1;letter-spacing:-1px;text-transform:uppercase;color:#222222">Таймлайн</h2>
+<hr style="position:absolute;left:60px;top:260px;width:1800px;border-top:2px solid #d4d7dc">
+<div style="position:absolute;left:60px;top:296px;width:360px;height:72px;background:#222222;border-radius:22px;display:flex;align-items:center;padding:0px 28px"><p style="font-family:'Inter', Arial, sans-serif;font-size:28px;font-weight:600;line-height:1;white-space:nowrap;color:#ffffff">[Исследование]</p></div>
+<div style="position:absolute;left:420px;top:384px;width:360px;height:72px;background:#222222;border-radius:22px;display:flex;align-items:center;padding:0px 28px"><p style="font-family:'Inter', Arial, sans-serif;font-size:28px;font-weight:600;line-height:1;white-space:nowrap;color:#ffffff">[Определение задачи]</p></div>
+<div style="position:absolute;left:780px;top:472px;width:360px;height:72px;background:#222222;border-radius:22px;display:flex;align-items:center;padding:0px 28px"><p style="font-family:'Inter', Arial, sans-serif;font-size:28px;font-weight:600;line-height:1;white-space:nowrap;color:#ffffff">[Идеи]</p></div>
+<div style="position:absolute;left:1140px;top:560px;width:720px;height:72px;background:#e04800;border-radius:22px;display:flex;align-items:center;padding:0px 28px"><p style="font-family:'Inter', Arial, sans-serif;font-size:28px;font-weight:600;line-height:1;white-space:nowrap;color:#ffffff">[Разработка]</p></div>
+<div style="position:absolute;left:1500px;top:648px;width:360px;height:72px;background:#222222;border-radius:22px;display:flex;align-items:center;padding:0px 28px"><p style="font-family:'Inter', Arial, sans-serif;font-size:28px;font-weight:600;line-height:1;white-space:nowrap;color:#ffffff">[Тест]</p></div>
+<p style="position:absolute;left:60px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:240px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:420px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:600px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:780px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:960px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:1140px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:1320px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:1500px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<p style="position:absolute;left:1680px;top:752px;width:180px;text-align:center;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:#9a9fa6">[дд.мм]</p>
+<ul style="position:absolute;left:80px;top:812px;width:330px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#222222"><li>[Гипотеза]</li><li>[Интервью]</li><li>[Анализ конкурентов]</li></ul>
+<ul style="position:absolute;left:440px;top:812px;width:330px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#222222"><li>[Портрет клиента]</li><li>[Опрос]</li></ul>
+<ul style="position:absolute;left:800px;top:812px;width:330px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#222222"><li>[Карта решения]</li><li>[Сценарии]</li></ul>
+<ul style="position:absolute;left:1160px;top:812px;width:330px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#222222"><li>[Прототип]</li><li>[MVP]</li><li>[Пилот]</li></ul>
+<ul style="position:absolute;left:1520px;top:812px;width:330px;font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#222222"><li>[Тесты с&nbsp;клиентами]</li><li>[Запуск]</li></ul>
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">16a</p>
+<aside>Слайд 16a&nbsp;— Таймлайн. Подробная версия дорожной карты в&nbsp;виде диаграммы Ганта: каждый этап&nbsp;— плашка на&nbsp;сетке дат, под&nbsp;ней конкретные результаты этапа. Текущий этап выделен оранжевым, остальные тёмные. Плашки&nbsp;— обычные блоки: растяните или&nbsp;сдвиньте их&nbsp;по&nbsp;сетке под&nbsp;свои сроки. Пять этапов максимум.</aside>
+</section>
+
+<!-- Слайд 16b — Пирамида стратегии -->
+<section id="16b-piramida" data-transition="fade" style="background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div>
+<p style="position:absolute;left:60px;top:140px;width:800px;font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:700;letter-spacing:3px;line-height:1;text-transform:uppercase;color:#fc5400">[Стратегия]</p>
+<h2 style="position:absolute;left:60px;top:184px;width:1800px;font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;line-height:1;letter-spacing:-1px;text-transform:uppercase;color:#ffffff">[Как&nbsp;мы&nbsp;растём]</h2>
+<p style="position:absolute;left:60px;top:254px;width:1600px;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.3;color:#8c7d74">[Одна фраза: логика стратегии от&nbsp;фундамента к&nbsp;цели.]</p>
+<hr style="position:absolute;left:60px;top:488px;width:1680px;border-top:1px solid #2e1c14">
+<hr style="position:absolute;left:60px;top:645px;width:1680px;border-top:1px solid #2e1c14">
+<hr style="position:absolute;left:60px;top:802px;width:1680px;border-top:1px solid #2e1c14">
+<svg aria-label="Пирамида из четырёх уровней" width="960" height="630" viewBox="0 0 960 630" style="position:absolute;left:720px;top:330px;width:960px;height:630px"><polygon points="480,0 597,154 363,154" fill="#fc5400"/><polygon points="357,162 603,162 717,311 243,311" fill="#d85004"/><polygon points="237,319 723,319 837,468 123,468" fill="#8a2b00"/><polygon points="117,476 843,476 957,626 3,626" fill="#3a1005"/></svg>
+<div style="position:absolute;left:60px;top:344px;width:540px;display:flex;flex-direction:column;gap:8px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">01</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#ffffff">[Шаг 1&nbsp;— вершина]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#8c7d74">[Что&nbsp;делаем и&nbsp;зачем. Две строки.]</p></div>
+<div style="position:absolute;left:60px;top:502px;width:540px;display:flex;flex-direction:column;gap:8px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">02</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#ffffff">[Шаг 2]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#8c7d74">[Что&nbsp;делаем и&nbsp;зачем. Две строки.]</p></div>
+<div style="position:absolute;left:60px;top:659px;width:540px;display:flex;flex-direction:column;gap:8px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">03</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#ffffff">[Шаг 3]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#8c7d74">[Что&nbsp;делаем и&nbsp;зачем. Две строки.]</p></div>
+<div style="position:absolute;left:60px;top:816px;width:540px;display:flex;flex-direction:column;gap:8px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;color:#fc5400">04</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#ffffff">[Шаг 4&nbsp;— фундамент]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.3;color:#8c7d74">[Что&nbsp;делаем и&nbsp;зачем. Две строки.]</p></div>
+<div style="position:absolute;left:990px;top:423px;width:420px;display:flex;flex-direction:column;align-items:center;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.1;text-align:center;color:#ffffff">[Цель]</p></div>
+<div style="position:absolute;left:990px;top:530px;width:420px;display:flex;flex-direction:column;align-items:center;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.1;text-align:center;color:#ffffff">[Уровень 2]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:rgba(255,255,255,0.75)">[пояснение]</p></div>
+<div style="position:absolute;left:990px;top:688px;width:420px;display:flex;flex-direction:column;align-items:center;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.1;text-align:center;color:#ffffff">[Уровень 3]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:rgba(255,255,255,0.75)">[пояснение]</p></div>
+<div style="position:absolute;left:990px;top:845px;width:420px;display:flex;flex-direction:column;align-items:center;gap:10px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.1;text-align:center;color:#ffffff">[Основа]</p><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1;color:rgba(255,255,255,0.75)">[пояснение]</p></div>
+<x-connector x1="1760" y1="336" x2="1760" y2="635" head="both" head-start="open" head-end="open" route="straight" style="color:#8c7d74;border-width:2px"></x-connector>
+<p style="position:absolute;left:1776px;top:458px;width:90px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1.15;color:#c9bdb6">Этап<br>1</p>
+<x-connector x1="1760" y1="655" x2="1760" y2="954" head="both" head-start="open" head-end="open" route="straight" style="color:#8c7d74;border-width:2px"></x-connector>
+<p style="position:absolute;left:1776px;top:776px;width:90px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1.15;color:#c9bdb6">Этап<br>2</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">16b</p>
+<aside>Слайд 16b&nbsp;— Пирамида стратегии. Читается снизу вверх: фундамент&nbsp;— то, без&nbsp;чего ничего не&nbsp;работает, вершина&nbsp;— цель. Слева те&nbsp;же четыре шага с&nbsp;пояснением, справа скобки группируют шаги в&nbsp;этапы. Подписи на&nbsp;пирамиде&nbsp;— короткие, одно-два слова, иначе не&nbsp;влезут в&nbsp;верхние уровни. Пирамида&nbsp;— картинка; подписи поверх неё&nbsp;— обычный текст.</aside>
+</section>
+
+<!-- Слайд 17 — Команда -->
+<section id="17-komanda" data-transition="fade" style="display:flex; flex-direction:column; gap:64px; padding:60px 60px 108px; background:linear-gradient(135deg, #fc5400 0%, #d85004 34%, #8a2b00 72%, #170a04 100%)">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <h2 style="font-family:Unbounded, Arial, sans-serif; font-size:72px; font-weight:800; line-height:1; letter-spacing:-2px; text-transform:uppercase; color:#ffffff">Команда</h2>
+  <div style="display:flex; flex-direction:row; gap:32px">
+    <div style="display:flex; flex-direction:column; gap:20px; flex:1; padding:40px; background:#00000052; border-radius:22px">
+      <div style="width:140px; height:140px; display:flex; flex-direction:column; background:#ffffff2e; border-radius:256px">
+      </div>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#ffcfae">[Роль]</p>
+      <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:40px; font-weight:800; line-height:1; text-transform:uppercase; color:#ffffff">[Имя<br>Фамилия]</h3>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#ffffffd9">[За&nbsp;что&nbsp;отвечает и&nbsp;что&nbsp;сделал до&nbsp;этого. Две строки.]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:20px; flex:1; padding:40px; background:#00000052; border-radius:22px">
+      <div style="width:140px; height:140px; display:flex; flex-direction:column; background:#ffffff2e; border-radius:256px">
+      </div>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#ffcfae">[Роль]</p>
+      <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:40px; font-weight:800; line-height:1; text-transform:uppercase; color:#ffffff">[Имя<br>Фамилия]</h3>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#ffffffd9">[За&nbsp;что&nbsp;отвечает и&nbsp;что&nbsp;сделал до&nbsp;этого. Две строки.]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:20px; flex:1; padding:40px; background:#00000052; border-radius:22px">
+      <div style="width:140px; height:140px; display:flex; flex-direction:column; background:#ffffff2e; border-radius:256px">
+      </div>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#ffcfae">[Роль]</p>
+      <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:40px; font-weight:800; line-height:1; text-transform:uppercase; color:#ffffff">[Имя<br>Фамилия]</h3>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#ffffffd9">[За&nbsp;что&nbsp;отвечает и&nbsp;что&nbsp;сделал до&nbsp;этого. Две строки.]</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:20px; flex:1; padding:40px; background:#00000052; border-radius:22px">
+      <div style="width:140px; height:140px; display:flex; flex-direction:column; background:#ffffff2e; border-radius:256px">
+      </div>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#ffcfae">[Роль]</p>
+      <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:40px; font-weight:800; line-height:1; text-transform:uppercase; color:#ffffff">[Имя<br>Фамилия]</h3>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:26px; line-height:1.4; color:#ffffffd9">[За&nbsp;что&nbsp;отвечает и&nbsp;что&nbsp;сделал до&nbsp;этого. Две строки.]</p>
+    </div>
+  </div>
+  <p style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#ffffffb3">17</p>
+  <aside>Слайд 17&nbsp;— Команда. Должность оранжевым над&nbsp;именем, имя капсом&nbsp;— как&nbsp;на&nbsp;карточках клуба в&nbsp;канале. Пишите не&nbsp;регалии, а&nbsp;что&nbsp;человек сделал руками. Четыре карточки максимум; советников выносите отдельной строкой внизу.</aside>
+</section>
+
+<!-- Слайд 17a — Команда с фотографиями -->
+<section id="17a-komanda" data-transition="fade" style="background:#140b08;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Команда</h2>
+<div style="display:flex;gap:24px"><div style="flex:1;background:#f4f5f7;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:20px"><div style="height:300px;background:#dcdfe4;border-radius:16px;display:flex;align-items:center;justify-content:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;color:#8a8f96;text-align:center;width:220px">[Фото]</p></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;text-transform:uppercase;letter-spacing:1px;color:#222222;border:1px solid #c4c8ce;border-radius:999px;padding:10px 20px;align-self:start">[Роль]</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.1;color:#222222">[Имя Фамилия]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[Что&nbsp;сделал руками до&nbsp;этого проекта. Две-три строки.]</p></div><div style="flex:1;background:#f4f5f7;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:20px"><div style="height:300px;background:#dcdfe4;border-radius:16px;display:flex;align-items:center;justify-content:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;color:#8a8f96;text-align:center;width:220px">[Фото]</p></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;text-transform:uppercase;letter-spacing:1px;color:#222222;border:1px solid #c4c8ce;border-radius:999px;padding:10px 20px;align-self:start">[Роль]</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.1;color:#222222">[Имя Фамилия]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[Что&nbsp;сделал руками до&nbsp;этого проекта. Две-три строки.]</p></div><div style="flex:1;background:#f4f5f7;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:20px"><div style="height:300px;background:#dcdfe4;border-radius:16px;display:flex;align-items:center;justify-content:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;color:#8a8f96;text-align:center;width:220px">[Фото]</p></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;text-transform:uppercase;letter-spacing:1px;color:#222222;border:1px solid #c4c8ce;border-radius:999px;padding:10px 20px;align-self:start">[Роль]</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.1;color:#222222">[Имя Фамилия]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[Что&nbsp;сделал руками до&nbsp;этого проекта. Две-три строки.]</p></div><div style="flex:1;background:#f4f5f7;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:20px"><div style="height:300px;background:#dcdfe4;border-radius:16px;display:flex;align-items:center;justify-content:center"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;color:#8a8f96;text-align:center;width:220px">[Фото]</p></div><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;text-transform:uppercase;letter-spacing:1px;color:#222222;border:1px solid #c4c8ce;border-radius:999px;padding:10px 20px;align-self:start">[Роль]</p><h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.1;color:#222222">[Имя Фамилия]</h3><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[Что&nbsp;сделал руками до&nbsp;этого проекта. Две-три строки.]</p></div></div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">17a</p>
+<aside>Слайд 17a&nbsp;— Команда с&nbsp;фотографиями. Вариант слайда 17 на&nbsp;однотонном тёмном фоне: четыре светлые карточки с&nbsp;фото, ролью в&nbsp;плашке, именем и&nbsp;одной строкой о&nbsp;том, что&nbsp;человек сделал. Фото&nbsp;— портрет на&nbsp;светлом фоне, одинаковый кадр у&nbsp;всех. Выберите один из&nbsp;вариантов: 17 или&nbsp;17a.</aside>
+</section>
+
+<!-- Слайд 18 — Партнёры -->
+<section id="18-partnery" data-transition="fade" style="background:#0e0906;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;gap:72px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Кто уже с&nbsp;нами</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:32px">
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 1]</p></div>
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 2]</p></div>
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 3]</p></div>
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 4]</p></div>
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 5]</p></div>
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 6]</p></div>
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 7]</p></div>
+<div style="height:180px;background:#1e120c;border-radius:22px;display:flex;align-items:center;justify-content:center"><p style="font-size:26px;color:#8c7d74">[Логотип 8]</p></div>
+</div>
+<p style="font-size:26px;color:#c9bdb6">[Пилоты, письма о&nbsp;намерениях и&nbsp;партнёрства&nbsp;— подпишите, что&nbsp;именно вас связывает]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">18</p>
+<aside>Слайд 18&nbsp;— Партнёры. Логотипы одинаковой оптической высоты, по&nbsp;четыре в&nbsp;строке. Обязательно подписать характер отношений: пилот, контракт, намерение. Логотип компании, с&nbsp;которой вы&nbsp;только поговорили, ставить нельзя.</aside>
+</section>
+
+<!-- Слайд 19 — Риски -->
+<section id="19-riski" data-transition="fade" style="display:flex; flex-direction:column; gap:56px; padding:60px 60px 108px; background:#f4f5f7">
+  <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#d84800">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#222222">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <h2 style="font-family:Unbounded, Arial, sans-serif; font-size:72px; font-weight:800; line-height:1; letter-spacing:-2px; text-transform:uppercase; color:#222222">Что&nbsp;может пойти не&nbsp;так</h2>
+  <div style="display:flex; flex-direction:column; gap:28px">
+    <div style="display:flex; flex-direction:row; gap:48px; align-items:center; padding:40px; background:#ffffff; border-radius:22px">
+      <p style="width:60px; font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:800; color:#d84800">01</p>
+      <div style="width:620px; display:flex; flex-direction:column">
+        <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:36px; font-weight:700; line-height:1.1; color:#222222">[Риск первый]</h3>
+      </div>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:28px; line-height:1.4; color:#5b5048">Что&nbsp;делаем: [конкретное действие, а&nbsp;не&nbsp;«следим за&nbsp;ситуацией»]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:48px; align-items:center; padding:40px; background:#ffffff; border-radius:22px">
+      <p style="width:60px; font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:800; color:#d84800">02</p>
+      <div style="width:620px; display:flex; flex-direction:column">
+        <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:36px; font-weight:700; line-height:1.1; color:#222222">[Риск второй]</h3>
+      </div>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:28px; line-height:1.4; color:#5b5048">Что&nbsp;делаем: [конкретное действие, а&nbsp;не&nbsp;«следим за&nbsp;ситуацией»]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:48px; align-items:center; padding:40px; background:#ffffff; border-radius:22px">
+      <p style="width:60px; font-family:Unbounded, Arial, sans-serif; font-size:44px; font-weight:800; color:#d84800">03</p>
+      <div style="width:620px; display:flex; flex-direction:column">
+        <h3 style="font-family:Unbounded, Arial, sans-serif; font-size:36px; font-weight:700; line-height:1.1; color:#222222">[Риск третий]</h3>
+      </div>
+      <p style="flex:1; font-family:Inter, Arial, sans-serif; font-size:28px; line-height:1.4; color:#5b5048">Что&nbsp;делаем: [конкретное действие, а&nbsp;не&nbsp;«следим за&nbsp;ситуацией»]</p>
+    </div>
+  </div>
+  <p style="position:absolute; right:60px; bottom:60px; width:120px; font-family:Inter, Arial, sans-serif; font-size:24px; font-weight:600; line-height:1; letter-spacing:2px; text-align:right; color:#8a7d74">19</p>
+  <aside>Слайд 19&nbsp;— Риски. Нужен в&nbsp;большой презентации и&nbsp;при&nbsp;разговоре с&nbsp;инвестором. Называйте настоящие риски, а&nbsp;не&nbsp;удобные. Слайд работает только если рядом с&nbsp;каждым риском стоит конкретное действие.</aside>
+</section>
+
+<!-- Слайд 19a — Матрица рисков -->
+<section id="19a-matrica-riskov" data-transition="fade" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div></div>
+<h2 style="position:absolute;left:60px;top:150px;width:1800px;font-family:'Unbounded', Arial, sans-serif;font-size:64px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">Матрица рисков</h2>
+<p style="position:absolute;left:60px;top:262px;width:200px;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#5b5048">Влияние</p>
+<x-connector x1="120" y1="932" x2="120" y2="300" head="end" head-end="filled" route="straight" style="color:#222222;border-width:3px"></x-connector>
+<x-connector x1="120" y1="932" x2="820" y2="932" head="end" head-end="filled" route="straight" style="color:#222222;border-width:3px"></x-connector>
+<p style="position:absolute;left:600px;top:952px;width:220px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;line-height:1;color:#5b5048">Вероятность</p>
+<div style="position:absolute;left:150px;top:310px;width:650px;height:600px;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr;gap:10px"><div style="background:#fbd5bf;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"></div><div style="background:#e04800;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;padding:10px 18px;border-radius:999px;background:#ffffff;color:#222222">R2</p></div><div style="background:#e04800;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;padding:10px 18px;border-radius:999px;background:#ffffff;color:#222222">R1</p></div><div style="background:#ffffff;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;padding:10px 18px;border-radius:999px;background:#222222;color:#ffffff">R5</p></div><div style="background:#fbd5bf;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;padding:10px 18px;border-radius:999px;background:#222222;color:#ffffff">R3</p></div><div style="background:#e04800;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"></div><div style="background:#ffffff;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"></div><div style="background:#ffffff;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"></div><div style="background:#fbd5bf;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;padding:10px 18px;border-radius:999px;background:#222222;color:#ffffff">R4</p></div></div>
+<div style="position:absolute;left:900px;top:290px;width:960px;background:#ffffff;border-radius:22px;padding:44px 48px;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-family:'Unbounded', Arial, sans-serif;font-size:34px;font-weight:700;line-height:1.1;color:#222222">Как&nbsp;снижаем риски</h3>
+<div style="display:flex;gap:24px;align-items:start;border-top:1px solid #e6e0da;padding:20px 0px 0px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:800;line-height:1.2;color:#e04800;width:56px">R1</p><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.35;color:#222222"><b>[Риск 1]</b>&nbsp;— [что&nbsp;делаем, одной строкой]</p></div><div style="display:flex;gap:24px;align-items:start;border-top:1px solid #e6e0da;padding:20px 0px 0px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:800;line-height:1.2;color:#e04800;width:56px">R2</p><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.35;color:#222222"><b>[Риск 2]</b>&nbsp;— [что&nbsp;делаем, одной строкой]</p></div><div style="display:flex;gap:24px;align-items:start;border-top:1px solid #e6e0da;padding:20px 0px 0px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:800;line-height:1.2;color:#e04800;width:56px">R3</p><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.35;color:#222222"><b>[Риск 3]</b>&nbsp;— [что&nbsp;делаем, одной строкой]</p></div><div style="display:flex;gap:24px;align-items:start;border-top:1px solid #e6e0da;padding:20px 0px 0px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:800;line-height:1.2;color:#e04800;width:56px">R4</p><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.35;color:#222222"><b>[Риск 4]</b>&nbsp;— [что&nbsp;делаем, одной строкой]</p></div><div style="display:flex;gap:24px;align-items:start;border-top:1px solid #e6e0da;padding:20px 0px 0px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:800;line-height:1.2;color:#e04800;width:56px">R5</p><p style="flex:1;font-family:'Inter', Arial, sans-serif;font-size:26px;line-height:1.35;color:#222222"><b>[Риск 5]</b>&nbsp;— [что&nbsp;делаем, одной строкой]</p></div>
+</div>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8a7d74">19a</p>
+<aside>Слайд 19a&nbsp;— Матрица рисков. Слева матрица 3×3: по&nbsp;горизонтали вероятность, по&nbsp;вертикали влияние. Оранжевая зона&nbsp;— критичные риски, их&nbsp;нужно разобрать на&nbsp;питче первыми. Метки R1–R5 переставляйте по&nbsp;клеткам. Справа&nbsp;— по&nbsp;одной строке на&nbsp;риск: что&nbsp;именно делаете, чтобы его снизить. Можно ставить вместо слайда 19 или&nbsp;сразу после него.</aside>
+</section>
+
+<!-- Слайд 20 — Запрос -->
+<section id="20-zapros" data-transition="magic" style="background:#0e0906;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;justify-content:space-between">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<div style="display:flex;flex-direction:column;gap:40px">
+<p style="font-size:28px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fc5400">Нам нужно</p>
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:150px;font-weight:800;line-height:0.92;letter-spacing:-4px;text-transform:uppercase;width:1500px">[₽0&nbsp;млн<br>на&nbsp;[срок]]</h1>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;background:#1e120c;border-radius:22px;padding:40px;display:flex;flex-direction:column;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;color:#fc5400">[00%]</p><p style="font-size:28px;line-height:1.4;color:#c9bdb6">[На&nbsp;что: команда, разработка, маркетинг]</p></div>
+<div style="flex:1;background:#1e120c;border-radius:22px;padding:40px;display:flex;flex-direction:column;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;color:#fc5400">[00%]</p><p style="font-size:28px;line-height:1.4;color:#c9bdb6">[На&nbsp;что]</p></div>
+<div style="flex:1;background:#1e120c;border-radius:22px;padding:40px;display:flex;flex-direction:column;gap:12px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:52px;font-weight:800;color:#fc5400">[00%]</p><p style="font-size:28px;line-height:1.4;color:#c9bdb6">[На&nbsp;что]</p></div>
+</div>
+<p style="font-size:30px;color:#c9bdb6">Через [срок] это даст: [измеримый результат]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">20</p>
+<aside>Слайд 20&nbsp;— Запрос. Самая конкретная цифра презентации. Сумма, срок, три статьи расходов и&nbsp;результат, к&nbsp;которому это приведёт. Если просите не&nbsp;деньги, а&nbsp;доступ, партнёра или&nbsp;пилот&nbsp;— формат тот&nbsp;же.</aside>
+</section>
+
+<!-- Слайд 21 — Цитата -->
+<section id="21-citata" data-transition="fade" style="background:#0e0906;color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;justify-content:center;gap:56px">
+<svg aria-label="Искра" width="110" height="110" viewBox="0 0 100 100" style="position:absolute;right:60px;bottom:108px"><path d="M50 0 L57 43 L100 50 L57 57 L50 100 L43 57 L0 50 L43 43 Z" fill="#fc5400"/></svg>
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:104px;font-weight:800;line-height:1.05;letter-spacing:-3px;width:1400px">«[Одна мысль, ради которой стоит сделать паузу. Не&nbsp;больше двух строк.]»</h1>
+<p style="font-size:30px;color:#c9bdb6">[Кто сказал, где и&nbsp;когда]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:#8c7d74">21</p>
+<aside>Слайд 21&nbsp;— Цитата. Пауза в&nbsp;ритме презентации. Ставится между тяжёлыми блоками: после цифр, перед командой. Одна на&nbsp;всю презентацию, не&nbsp;больше. Искра в&nbsp;правом нижнем углу&nbsp;— фирменный знак клуба.</aside>
+</section>
+
+<!-- Слайд 22 — Разделитель -->
+<section id="22-razdelitel" data-transition="push" style="background:linear-gradient(135deg,#fc5400 0%,#d85004 36%,#8a2b00 74%,#170a04 100%);color:#ffffff;font-family:'Inter', Arial, sans-serif;padding:60px 60px 108px;display:flex;flex-direction:column;justify-content:space-between">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#fc5400" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#fc5400"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#fc5400">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#ffffff">КЛУБ</p></div></div></div>
+<div style="display:flex;align-items:flex-end;gap:56px">
+<p style="font-family:'Unbounded', Arial, sans-serif;font-size:220px;font-weight:800;line-height:0.85;letter-spacing:-8px;color:rgba(255,255,255,0.4)">[03]</p>
+<h1 style="font-family:'Unbounded', Arial, sans-serif;font-size:120px;font-weight:800;line-height:0.95;letter-spacing:-3px;text-transform:uppercase;width:1100px">[Название<br>раздела]</h1>
+</div>
+<p style="font-size:30px;color:rgba(255,255,255,0.85);width:1100px">[Одна строка о&nbsp;том, что&nbsp;будет в&nbsp;этом разделе]</p>
+<p style="position:absolute;right:60px;bottom:60px;width:120px;text-align:right;font-family:'Inter', Arial, sans-serif;font-size:24px;font-weight:600;letter-spacing:2px;line-height:1;color:rgba(255,255,255,0.7)">22</p>
+<aside>Слайд 22&nbsp;— Разделитель. Нужен только в&nbsp;презентациях длиннее двенадцати слайдов. Номер раздела, название, одна строка. Копируйте слайд столько раз, сколько у&nbsp;вас разделов.</aside>
+</section>
+
+<!-- Слайд 23a — Концовка -->
+<section id="23a-spasibo" data-transition="fade" style="background:radial-gradient(circle at 92% 6%, #ff9c55 0%, #fc5400 30%, #ec4a00 100%)">
+  <div style="position:absolute; top:0; left:959px; width:2px; height:1080px; display:flex; flex-direction:column; background:#ffffff47">
+  </div>
+  <p style="position:absolute; top:120px; left:100px; width:300px; padding:0 0 14px; font-family:Inter, Arial, sans-serif; font-size:28px; font-weight:600; line-height:1; color:#ffffff; border-bottom:3px solid #ffffff">Связаться с&nbsp;нами</p>
+  <div style="position:absolute; top:230px; left:100px; width:760px; display:flex; flex-direction:column; gap:36px">
+    <div style="display:flex; flex-direction:row; gap:32px; align-items:center">
+      <x-icon name="PaperPlane" style="width:36px; height:36px; color:#ffffff"></x-icon>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:30px; line-height:1; color:#ffffff">[@telegram]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:32px; align-items:center">
+      <x-icon name="Chat" style="width:36px; height:36px; color:#ffffff"></x-icon>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:30px; line-height:1; color:#ffffff">[почта@домен.ru]</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:32px; align-items:center">
+      <x-icon name="Globe" style="width:36px; height:36px; color:#ffffff"></x-icon>
+      <p style="font-family:Inter, Arial, sans-serif; font-size:30px; line-height:1; color:#ffffff">[сайт.ru]</p>
+    </div>
+  </div>
+  <p style="position:absolute; top:980px; left:100px; width:760px; font-family:Inter, Arial, sans-serif; font-size:24px; line-height:1; color:#ffffffd9">© 2026 [Команда проекта] · Стартап Клуб ВШЭ</p>
+  <div style="position:absolute; top:60px; right:60px; display:flex; flex-direction:column">
+    <div style="display:flex; flex-direction:row; gap:14px; align-items:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="Логотип Стартап Клуба" viewBox="0 0 34 34" style="width:48px; height:48px"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#ffffff"/></svg>
+      <div style="display:flex; flex-direction:column">
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">СТАРТАП</p>
+        <p style="font-family:Unbounded, Arial, sans-serif; font-size:24px; font-weight:800; line-height:1; color:#ffffff">КЛУБ</p>
+      </div>
+    </div>
+  </div>
+  <h1 style="position:absolute; top:620px; left:1000px; width:860px; font-family:Unbounded, Arial, sans-serif; font-size:128px; font-weight:800; line-height:1; letter-spacing:-4px; text-align:right; color:#ffffff">Спасибо</h1>
+  <p style="position:absolute; top:780px; left:1000px; width:860px; font-family:Unbounded, sans-serif; font-size:72px; font-weight:800; line-height:0.92; letter-spacing:-1.4px; text-align:right; color:#ffffff">за&nbsp;внимание</p>
+  <div id="c38a6d56" style="position:absolute; top:522.83px; left:100.01px; width:353.77px; height:353.77px; display:flex; flex-direction:row; align-items:center; justify-content:center; background:#ffffff; border-radius:22px">
+    <p style="width:300px; font-family:Inter, Arial, sans-serif; font-size:26px; text-align:center; color:#5b5048">[QR-код на&nbsp;сайт или&nbsp;форму]</p>
+  </div>
+  <aside>Слайд 23a&nbsp;— Концовка. Альтернатива слайду 23: слева контакты (Telegram, почта, сайт), справа крупное «Спасибо». Логотип здесь стоит в&nbsp;правом верхнем углу&nbsp;— это финальный слайд, на&nbsp;нём он&nbsp;работает как&nbsp;подпись. Остаётся на&nbsp;экране во&nbsp;время вопросов, поэтому контакты должны читаться с&nbsp;задних рядов.</aside>
+</section>
+
+<!-- Слайд 24 — Приложение -->
+<section id="24-prilozhenie" style="background:#f4f5f7;color:#222222;font-family:'Inter', Arial, sans-serif;padding:60px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:14px"><svg aria-label="Логотип Стартап Клуба" width="48" height="48" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#3a1005"/><path d="M5 26 L11 19 L15 23 L21 14 L25 17" fill="none" stroke="#d84800" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 9 L27 17.5 L19.5 11 Z" fill="#d84800"/></svg><div><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#d84800">СТАРТАП</p><p style="font-family:'Unbounded', Arial, sans-serif;font-size:24px;font-weight:800;line-height:1;color:#222222">КЛУБ</p></div></div><p style="font-size:24px;font-weight:600;letter-spacing:2px;color:#8a7d74">ПРИЛОЖЕНИЕ</p></div>
+<h2 style="font-family:'Unbounded', Arial, sans-serif;font-size:60px;font-weight:800;line-height:1;letter-spacing:-2px;text-transform:uppercase">[Детальный расчёт]</h2>
+<div style="flex:1;display:grid;grid-template-columns:380px 1fr 1fr 1fr 1fr;border:2px dashed #c4c8ce;border-radius:28px"><div style="display:flex;flex-direction:column;gap:8px;padding:16px;"><div style="height:96px;background:#ffffff;border-radius:22px;box-shadow:0px 8px 24px rgba(0,0,0,0.06);display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#222222">Показатель</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#222222">[Клиенты]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#222222">[Выручка]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#222222">[Расходы]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#222222">[Прибыль]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:26px;font-weight:600;line-height:1.3;color:#222222">[Денежный поток]</p></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-left:2px dashed #c4c8ce;"><div style="height:96px;background:#ffffff;border-radius:22px;box-shadow:0px 8px 24px rgba(0,0,0,0.06);display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#222222">2026</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-left:2px dashed #c4c8ce;"><div style="height:96px;background:#ffffff;border-radius:22px;box-shadow:0px 8px 24px rgba(0,0,0,0.06);display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#222222">2027</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-left:2px dashed #c4c8ce;"><div style="height:96px;background:#ffffff;border-radius:22px;box-shadow:0px 8px 24px rgba(0,0,0,0.06);display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#222222">2028</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.15;color:#222222">[₽0]</p></div></div><div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-left:2px dashed #c4c8ce;"><div style="height:96px;background:#ffffff;border-radius:22px;box-shadow:0px 8px 24px rgba(0,0,0,0.06);display:flex;align-items:center;justify-content:center;padding:0px 20px"><p style="font-family:'Unbounded', Arial, sans-serif;font-size:26px;font-weight:700;line-height:1.15;text-align:center;color:#222222">Допущение</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[0% в&nbsp;мес.]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[чек ₽0]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[штат 0&nbsp;чел.]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[—]</p></div><div style="flex:1;display:flex;align-items:center;padding:0px 16px"><p style="font-family:'Inter', Arial, sans-serif;font-size:24px;line-height:1.35;color:#5b5048">[—]</p></div></div></div>
+<p style="font-size:26px;line-height:1.4;color:#5b5048;width:1500px">[Главное допущение модели и&nbsp;что&nbsp;произойдёт, если оно не&nbsp;сбудется.]</p>
+<aside>Слайд 24&nbsp;— Приложение. Эти слайды не&nbsp;показывают в&nbsp;основном прогоне: к&nbsp;ним возвращаются по&nbsp;вопросу из&nbsp;зала. Здесь можно мельче шрифт и&nbsp;плотнее таблицы. Копируйте слайд под&nbsp;каждый отдельный расчёт.</aside>
+</section>
